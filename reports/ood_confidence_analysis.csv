@@ -1,0 +1,798 @@
+error_message,actual_category,predicted_category,confidence_score,actual_category_seen_in_training,needs_review
+NoCredentialsError: Unable to locate credentials,Authentication,Authentication,0.20014879691453,True,True
+upload failed: ../../abc/lampdata.json to s3://lamp/lampdata.json Unable to locate credentials,Authentication,Storage,0.15085783792693214,True,True
+"Unable to locate credentials. You can configure credentials by running ""aws configure"". Error: Process completed with exit code 253.",Authentication,Runtime,0.17972149925965297,True,True
+botocore.exceptions.NoCredentialsError: Unable to locate credentials,Authentication,Authentication,0.16616171781292471,True,True
+fatal error: Unable to locate credentials. You can configure credentials by running 'aws configure'.,Authentication,Authentication,0.27860764130045085,True,True
+"==> nat-instance.amazon-ebs.amz2arm64: Unable to locate credentials. You can configure credentials by running ""aws configure"".",Authentication,Authentication,0.17453561594540526,True,True
+An error occurred (AuthFailure) when calling the DescribeInstances operation: AWS was not able to validate the provided access credentials,Authentication,Authentication,0.18906007669229877,True,True
+ERROR: The config profile (production) could not be found,Configuration,Configuration,0.3070567368624388,True,True
+[AWS_STS_REGION_ENDPOINTS] The security token included in the request is expired.,Authentication,Security,0.595749027503191,True,True
+"credentials_process: exit code 1
+An error occurred (InvalidClientTokenId) when calling the GetCallerIdentity operation: The security token included in the request is invalid.",Authentication,Authentication,0.35030164103409656,True,True
+"ERROR credentials provider: No valid providers in chain. Deprecated. For verbose messaging see aws.Config.CredentialsChainVerboseErrors
+botocore.exceptions.NoCredentialsError",Authentication,Authentication,0.2553969335652449,True,True
+Unable to locate credentials for 'http://xxxxxxx/awsdev-patching/customer_deploy.git' — Message: Unable to locate credentials,Authentication,Authentication,0.1305883467640865,True,True
+User: arn:aws:sts::123456:assumed-role/cdk-hnb659fds-deploy-role-123456-ap-southeast-1/aws-cdk-haitran is not authorized to perform: iam:PassRole on resource: arn:aws:iam::123456:role/cdk-admin-role-CdkAdminRole-1IBORD9375GQF because no identity-based policy allows the iam:PassRole action,Authorization,Authorization,0.8380761561178797,True,False
+User: arn:aws:sts::ACCOUNT:assumed-role/ROLE/SESSION is not authorized to perform: ecs:TagResource on resource: arn:aws:ecs:ap-northeast-1:ACCOUNT:task-definition/TASK_DEF because no identity-based policy allows the ecs:TagResource action,Authorization,Authorization,0.4316982052199024,True,True
+Error: failed creating IAM Role: AccessDenied: User: arn:aws:sts::AFT-MANAGEMENT_ACCOUNT:assumed-role/AWSAFTAdmin/AWSAFT-Session is not authorized to perform: iam:CreateRole on resource: arn:aws:iam::AFT-MANAGEMENT_ACCOUNT:role/ssm-managed-role,Authorization,Authorization,0.903767066309823,True,False
+failed to reconcile machine pool for AWSManagedMachinePool REDACTED-pool-0: error getting policy arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy: AccessDenied: User: arn:aws:sts::REDACTED:assumed-role/controllers.cluster-api-provider-aws.sigs.k8s.io/infra-pipeline-role-session is not authorized to perform: iam:GetPolicy on resource,Authorization,Authorization,0.7066528916348261,True,False
+AccessDenied: User: arn:aws:sts::account-1:assumed-role/PipelineStack-AppNamePipelineBuil-XXXXXXX/AWSCodeBuild-uuid is not authorized to perform: sts:AssumeRole on resource: arn:aws:iam::account-2:role/cdk-xxxx-lookup-role-account-2-us-west-2,Authorization,Authorization,0.7804448135050288,True,False
+"Resource handler returned message: ""User: arn:aws:sts::123456789012:assumed-role/clo-APICfnFlowCfnHelperServiceRole-111CLC116XCRH/clo-APICfnFlowCfnHelper-zH6Arx7iEUMY is not authorized to perform: iam:TagRole on resource: arn:aws:iam::123456789012:role/CL-SvcPipe-05044865-InitStackLogProcessorFnServiceR-9LvXu because no identity-based policy allows the iam:TagRole action""",Authorization,Authorization,0.7526395678342963,True,False
+An error occurred (AccessDenied) when calling the CreateBucket operation: Access Denied,Authorization,Authorization,0.47309731707388947,True,True
+Error: AccessDenied: User: arn:aws:sts::ACCOUNT:assumed-role/codebuild-role/AWSCodeBuild-jobid is not authorized to perform: ecr:GetAuthorizationToken on resource: *,Authorization,Authorization,0.6836325095107388,True,False
+An error occurred (AccessDenied) when calling the PutItem operation: User is not authorized to perform: dynamodb:PutItem on resource: arn:aws:dynamodb:us-east-1:ACCOUNT:table/terraform-state-locks,Authorization,Authorization,0.3137946293387034,True,True
+arn:aws:iam::ACCOUNT_NUMBER:role/IAM_ROLE_NAME is not authorized to perform AssumeRole on role arn:aws:iam::ACCOUNT_NUMBER:role/IAM_ROLE_NAME (Service: AWSCodePipeline; Status Code: 400; Error Code: InvalidStructureException),Authorization,Authorization,0.6762249653493646,True,False
+AccessDenied: User: arn:aws:sts::ACCOUNT:assumed-role/GitHubActionsRole/GitHubActions is not authorized to perform: lambda:UpdateFunctionCode on resource: arn:aws:lambda:us-east-1:ACCOUNT:function:my-function because no resource-based policy allows the lambda:UpdateFunctionCode action,Authorization,Authorization,0.5427195104591156,True,True
+User: arn:aws:iam::ACCOUNT:root is not authorized to perform: iam:CreateServiceLinkedRole with an explicit deny in a service control policy,Authorization,Authorization,0.6315685176821777,True,False
+An error occurred (VcpuLimitExceeded) when calling the RunInstances operation: You have requested more vCPU capacity than your current vCPU limit of 32 allows for the instance bucket that the specified instance type belongs to.,Resource Management,Resource Management,0.8686445893130927,True,False
+"ResourceLimitExceeded: You have reached the limit on the number of security groups that can be created in us-east-1. Requested: 1, Available: 0",Resource,Resource Management,0.3024848608561196,True,True
+"Error: Error creating EKS Node Group: ResourceLimitExceeded: Node group limit exceeded; current limit: 30, requested: 1.",Resource,Resource Management,0.19748076062550504,True,True
+An error occurred (MaxAddressLimitExceeded) when calling the AllocateAddress operation: The maximum number of addresses has been reached.,Resource,Resource Management,0.18002234183601654,True,True
+ResourceLimitExceeded: The maximum number of NAT gateways has been reached for account ACCOUNT_ID in region us-east-1 (Service: Amazon Elastic Compute Cloud; Status Code: 400),Resource Management,Infrastructure,0.16620635722091595,True,True
+ClientError: An error occurred (RequestExpired) when calling the DescribeInstances operation: Request has expired.,Configuration,Resource Management,0.14297552862648627,True,True
+ERROR: Rate exceeded (throttle). Backing off ... seconds before retry. -- 2 retries remaining.,API,API,0.29931732275477924,True,True
+An error occurred (InsufficientInstanceCapacity) when calling the RunInstances operation: We currently do not have sufficient c5.4xlarge capacity in the Availability Zone you requested (us-east-1b).,Resource,Resource Management,0.2951352106753265,True,True
+ERROR: Cannot create more than 100 VPCs in us-east-1. An error occurred (VpcLimitExceeded) when calling the CreateVpc operation.,Resource,Resource Management,0.4533109318569409,True,True
+"ThrottlingException: Rate exceeded
+	at com.amazonaws.services.codepipeline.AWSCodePipelineClient.executeListPipelineExecutions(AWSCodePipelineClient.java:1507)",API,CI Orchestration,0.26524915873342764,True,True
+"Error from server: etcdserver: request timed out
+WARNING: Detected DNS lookup failure in cluster. Route 53 resolver may be rate-limited.",Network,Network,0.5003470070894656,True,True
+Error: failed to update DNS record: Rate exceeded (Route 53 API). Ensure your Route53 request rate is below the limit of 5 requests per second.,Network,API,0.4972165142151049,True,True
+Route 53 health check failed: connection to TCP 80 timed out after 10s; endpoint removed from traffic policy,Network,Network,0.6025171653031651,True,False
+"dig: couldn't get address for 'api.internal.example.com': not found
+Error: dial tcp: lookup api.internal.example.com on 10.0.0.2:53: no such host",Network,Network,0.36301769141913803,True,True
+Couldn't resolve host 'elasticloadbalancing.us-east-1.amazonaws.com'; could not reach Route53 resolver 169.254.169.253,Network,Network,0.3408700046829351,True,True
+Error: AWS Route 53 CNAME record propagation timeout. Record has been created but not yet visible in DNS.,Network,Network,0.3796195643678037,True,True
+ValidationError: Value (INVALID) for parameter HostedZoneId is invalid. The Hosted Zone ID you entered is invalid.,Configuration,Runtime,0.13981450761219658,True,True
+Error: No exported outputs found for stack $STACK_NAME. Ensure that the Route53 hosted zone is created before deploying dependent stacks.,Configuration,Runtime,0.12672239061629895,True,True
+"Error from server (InternalError): error when creating ""ingress.yaml"": Internal error occurred: failed calling webhook ""validate.nginx.ingress.kubernetes.io"": Post https://ingress-nginx-controller-admission:443/networking/v1/ingresses: dial tcp: lookup ingress-nginx-controller-admission on 172.20.0.10:53: no such host",Network,Network,0.18467165501910077,True,True
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Route53 private zone not associated: dial unix /var/run/docker.sock: connect: connection refused,Network,Infrastructure,0.4512432807553269,True,True
+Error: 3 out of 3 attempts failed in the retry loop. The job failed with exit code 1. Please check the logs and re-run if transient.,CI Orchestration,Runtime,0.2879150009839564,True,True
+ERROR: Pipeline execution failed with exit code 1 at stage: Test. Retriable error detected (HTTP 503 from dependency service).,CI Orchestration,CI Orchestration,0.3751041126772367,True,True
+"GITHUB_ACTIONS: The request processing has failed because of an unknown error, exception or failure. Please retry.",CI Orchestration,API,0.14425054360731415,True,True
+ERROR: Step [Docker Build] failed after 3 attempts. Reason: docker: Error response from daemon: toomanyrequests: You have reached your pull rate limit.,Container Runtime,Resource,0.6303142992898599,True,False
+jenkins.model.interruption.hudson.AbortException: Timeout waiting for build agent to be online. The build will be re-triggered.,CI Orchestration,CI Orchestration,0.5621857719809891,True,True
+"Error: Process completed with exit code 137. The runner was killed, possibly due to memory pressure. Re-running the job may succeed.",CI Orchestration,Runtime,0.40647690092244126,True,True
+GitLab CI job failed: executor failed running [/usr/bin/env git checkout]: exit status 128. Retrying in 5s...,Source Control,CI Orchestration,0.21244853952631987,False,True
+CircleCI build #1234 failed: Infrastructure fail. We're sorry — the build could not be completed due to an infrastructure problem on CircleCI's end. Re-run the build to try again.,CI Orchestration,Infrastructure,0.27011996937910715,True,True
+"Error: The workflow run could not be triggered because the workflow file is invalid. If you recently pushed a change, please wait a moment and retry.",CI Orchestration,API,0.16655664903616277,True,True
+ERROR in pipeline: Stage 'integration-test' failed. This failure may be transient. Automatic retry scheduled in 5 minutes.,CI Orchestration,CI Orchestration,0.34123005164350106,True,True
+error: there is no configmap 'app-config' in namespace 'production'. Please create the ConfigMap before deploying.,Configuration,Configuration,0.5469194374524802,True,True
+"RuntimeError: Failed to load configuration file '/etc/app/config.yaml': No such file or directory
+Application startup failed with exit code 1",Configuration,Configuration,0.4616951898960393,True,True
+Error: config file '/app/config/settings.json' not found. Using defaults but required settings are missing.,Configuration,Configuration,0.6256727057776493,True,False
+FATAL: Failed to read config map 'database-config': the server could not find the requested resource (get configmaps database-config),Configuration,Configuration,0.40898556385089624,True,True
+Error: Secret 'db-credentials' not found in namespace 'production'. Pods cannot start without required secret.,Configuration,Configuration,0.20173186697760237,True,True
+"startup failed: yaml: unmarshal errors:
+  line 1: field unknown_param not found in type config.AppConfig
+check the application config file for errors",Configuration,Configuration,0.4558026137520868,True,True
+Error: connection to server lost; retrying. Failed to load cluster config: no kubeconfig file found at /root/.kube/config,Configuration,Configuration,0.314097639241133,True,True
+"[ERROR] Failed to parse environment variables. Required variable 'DATABASE_URL' is not set.
+Application exiting with code 1.",Configuration,Configuration,0.3414662244641703,True,True
+"helm upgrade failed: UPGRADE FAILED: cannot patch ""app-config-map"" with kind ConfigMap: ConfigMap.core ""app-config-map"" is invalid: metadata.annotations: Too long: must have at most 262144 bytes",Configuration,Configuration,0.38878135969352745,True,True
+Error: ConfigMap 'nginx-config' contains invalid server_name directive. Nginx reload failed with exit code 1.,Configuration,Configuration,0.39261186371194706,True,True
+ERROR: Could not find a version that satisfies the requirement tensorflow==2.4.0 (from versions: none) ERROR: No matching distribution found for tensorflow==2.4.0,Dependencies,Runtime,0.20345891154206058,True,True
+"npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/@company%2fprivate-pkg - Not found
+npm ERR! 404 '@company/private-pkg@1.2.3' is not in this registry.",Dependencies,Dependency,0.2261396623890721,True,True
+error: failed to solve: failed to load cache key: failed to fetch anonymous token: unexpected status: 401 Unauthorized,Dependencies,Runtime,0.17210145183135295,True,True
+"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflict.
+requests 2.28.0 requires urllib3<2,>=1.21.1, but you have urllib3 2.0.3 which is incompatible.",Dependencies,Dependencies,0.3257962371411832,True,True
+"Resolving dependencies... (0.5s)
+  SolverProblem: Because laravel/framework 9.0 requires symfony/http-foundation ^6.0 but symfony/http-foundation 5.4.28 is present.",Dependencies,Dependencies,0.16906513442568954,True,True
+"ERROR: While loading /var/lib/jenkins/.gradle/caches/modules-2/files-2.1 java.lang.OutOfMemoryError: Java heap space
+error: org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileJava'.",Dependencies,Resource Management,0.48575249009821503,True,True
+go: github.com/example/module@v1.2.3: reading https://sum.golang.org/lookup/github.com/example/module@v1.2.3: 410 Gone,Dependencies,API,0.12018833921930407,True,True
+"error: src/index.ts(4,8): error TS2307: Cannot find module '@types/react' or its corresponding type declarations.",Dependency,Dependencies,0.24795042770490233,True,True
+"gem install bundler -v '2.3.26' --source 'https://rubygems.org/' failed with:
+ERROR: Failed to build gem native extension.",Dependencies,CI Orchestration,0.15019546328426986,True,True
+"ModuleNotFoundError: No module named 'psycopg2'
+During handling of the above exception, another exception occurred:
+Django.db.utils.OperationalError: could not connect to server: No such file or directory",Dependencies,Database,0.21036053325583137,True,True
+ERROR: failed to solve: failed to read dockerfile: failed to create temp dir: mkdir /var/lib/docker/tmp/buildkit-mount1596176744: no space left on device,Storage,Storage,0.5517527189956463,True,True
+##[error]No space left on device,CI Orchestration,Storage,0.6800547461502336,True,False
+"==> docker: Error committing container: exit status 1
+==> docker: Stderr: Error response from daemon: ApplyLayer exit status 1 stdout: stderr: write /var/lib/riak/anti_entropy/000003.log: no space left on device",Storage,Container Runtime,0.38093538497537477,True,True
+Error response from daemon: mkdir /var/lib/docker/tmp/docker-builder553623694: no space left on device,Storage,Storage,0.5903490488859029,True,True
+"write /root/.cache/go-build/trim.txt: no space left on device
+go: failed to trim cache",Storage,Storage,0.5998565532238065,True,True
+"Dockerfile: Step 14/22 : RUN apt-get install -y build-essential
+E: You don't have enough free space in /var/cache/apt/.",Storage,Configuration,0.11302392923726252,True,True
+"FATAL: hudson.remoting.ChannelClosedException: Channel to build-agent-003: Connection was broken: java.io.IOException: Premature EOF
+disk space on agent: 0 MB available (threshold: 1024 MB)",Storage,CI Orchestration,0.564155417742041,True,True
+"df: No space left on device
+tar: /var/lib/jenkins/workspace/build-artifacts.tar.gz: Cannot write: No space left on device
+Build step 'Publish over SSH' marked build as failure",Storage,Storage,0.7255717887152626,True,False
+"E: Package 'curl' has no installation candidate
+E: You don't have enough free space in /var/cache/apt/archives/.
+dpkg: error processing package install",Storage,Dependencies,0.20801485415781232,True,True
+"error: failed to commit transaction (conflicting files): filesystem: /usr/bin/python3 exists in filesystem
+disk full; unable to create new files during upgrade",Storage,Storage,0.36573822283252494,True,True
+"Build failed: Persistent disk /dev/xvdf on Jenkins master is 97% full.
+Build artifacts older than 30 days should be purged.",Storage,Storage,0.5345777388873196,True,True
+"WARN: Runner disk space is at 98%: 245MB free of 14GB. Build may fail if artifacts are written.
+failed: write /tmp/build/output.tar.gz: no space left on device",Storage,Storage,0.7212549236287618,True,False
+error: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory,Container Runtime,Configuration,0.26540298482197555,True,True
+"ERROR: failed to push some refs to 'registry.example.com/myimage:latest'
+HTTP 400 Bad Request: tag does not match: expected 'myimage:latest', got 'myimage:feature-branch'",Container Runtime,Image Management,0.35344664746830873,True,True
+error: failed to solve: failed to read dockerfile: dockerfile parse error line 1: unknown instruction: \xef\xbb\xbf,Container Runtime,Configuration,0.35694440216326195,True,True
+"Traceback (most recent call last):
+  File ""build.py"", line 42, in push_image
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='registry.example.com'): Max retries exceeded",Container Runtime,Image Management,0.16609930554312963,True,True
+ERROR: failed to push image: error response from daemon: Get https://registry-1.docker.io/v2/: net/http: request canceled while waiting for connection,Container Runtime,Network,0.20617957474437545,True,True
+failed to create OCI manifest from config: marshaling artifact manifest: error marshaling JSON to Artifact manifest type: error encoding manifest: unknown media type for content,Container Runtime,Image Management,0.35048930820066987,True,True
+ERROR [build 5/7] COPY --from=builder /app/dist ./dist: failed to calculate checksum of ref: failed to walk /var/lib/docker/tmp/buildkit-mount: lstat /var/lib/docker/tmp: permission denied,Container Runtime,Authorization,0.20889558889866053,True,True
+error: failed to fetch metadata: fork/exec /usr/local/lib/docker/cli-plugins/docker-buildx: exec format error,Container Runtime,Container Runtime,0.3621061974060122,True,True
+"The push refers to repository [123456789.dkr.ecr.us-east-1.amazonaws.com/myapp]
+error parsing HTTP 403 response body: unexpected end of JSON input: """"",Container Runtime,Image Management,0.2498796872892668,True,True
+docker build failed with exit code 2: dockerfile: COPY failed: file not found in build context or excluded by .dockerignore: stat dist/main.js: file does not exist,Container Runtime,Image Management,0.2249271320029973,True,True
+"Error response from daemon: Cannot restart container my-app-1: container is not running
+Container my-app-1 exited with status 1",Container Runtime,Container Runtime,0.9167617897348164,True,False
+CrashLoopBackOff: Back-off restarting failed container my-app in pod my-app-7f8b6d4f9-xk2nl,Container Runtime,Container Runtime,0.7433920461156883,True,False
+"Error: container exited with code 137. This is typically caused by the container being killed (OOM or SIGKILL).
+Container: my-svc-prod (id: a8f2b3c4d5e6)",Container Runtime,Container Runtime,0.5870393018512622,True,True
+"docker compose up failed: service 'web' failed to start: container my_project_web_1 exited with code 1
+Error response from daemon: OCI runtime create failed",Container Runtime,Container Runtime,0.8965024134188242,True,False
+Error response from daemon: driver failed programming external connectivity on endpoint myapp (abc123): Bind for 0.0.0.0:80 failed: port is already allocated,Container Runtime,Container Runtime,0.9793869186753004,True,False
+Container 'web' is unhealthy. Health check command '/usr/bin/curl --silent --fail http://localhost:8080/health' returned non-zero exit status 7.,Container Runtime,Container Runtime,0.18736728706417138,True,True
+"Error: Cannot restart container: container id must be between 8 and 64 characters
+[exit status 125]",Container Runtime,Container Runtime,0.48351940474554717,True,True
+"FATAL: Container failed health check 3 times and has been stopped. Reason: unhealthy
+failed to start service: health check timeout after 30s",Container Runtime,Infrastructure,0.26296690418242624,True,True
+"Error while creating mount source path '/var/data/app': mkdir /var/data/app: permission denied
+Container failed to start.",Container Runtime,Authorization,0.391092624281808,True,True
+"container my-service stopped unexpectedly (exit code: 1). The last output was:
+panic: runtime error: invalid memory address or nil pointer dereference",Container Runtime,Runtime,0.3923568982690041,True,True
+"Error response from daemon: pull access denied for xxxxyyyyzzzz.dkr.ecr.us-east-1.amazonaws.com/docker-hub/python, repository does not exist or may require 'docker login': denied: The authentication to the upstream registry failed. Verify that the credentials are correct, that the required access is provided, and try again.",Image Management,Image Management,0.4212679239158319,True,True
+"CannotPullContainerError: Error response from daemon: pull access denied for FOO.dkr.ecr.us-east-1.amazonaws.com/foo/app, repository does not exist or may require 'docker login'",Image Management,Authorization,0.45394589545397823,True,True
+"Error response from daemon: pull access denied for 0b6a657795a5, repository does not exist or may require 'docker login': denied: requested access to the resource is denied",Image Management,Authorization,0.8117681997151716,True,False
+"Error response from daemon: pull access denied for huggingface-pytorch-inference, repository does not exist or may require 'docker login': denied: requested access to the resource is denied",Image Management,Authorization,0.7788088241421195,True,False
+"##[error]Docker pull failed with exit code 1
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post http:///var/run/docker.sock/v1.40/images/create?fromImage=golang&tag=1.13.9-alpine3.10: dial unix /var/run/docker.sock: connect: permission denied",Image Management,Container Runtime,0.35323822810826405,True,True
+Error response from daemon: Head https://registry-1.docker.io/v2/library/node/manifests/18-alpine: unauthorized: incorrect username or password,Image Management,Image Management,0.25364031402783055,True,True
+Error response from daemon: toomanyrequests: You have reached your pull rate limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit,Image Management,Resource,0.7247620618853671,True,False
+"Error: imagepullbackoff: pull image ""private-registry.company.com/app:v1.2.3"" failed: rpc error: code = Unknown desc = failed to pull and unpack image: failed to resolve reference: unexpected status code 401 Unauthorized",Image Management,Image Management,0.8848396954541261,True,False
+"Error: ImagePullBackOff - Back-off pulling image ""ghcr.io/owner/repo:latest""
+Status: Failure to get imagemanifest from ""ghcr.io/owner/repo:latest"": unauthorized",Image Management,Image Management,0.6748937360895318,True,False
+Error pulling image 'public.ecr.aws/lambda/python:3.11': unauthorized: authentication required,Image Management,Image Management,0.5494973230938871,True,True
+"error pulling image configuration: unknown blob
+failed to pull image: invalid image reference: digest sha256:abc123 not found",Image Management,Image Management,0.7086678871145404,True,False
+"Error loading config file ""/root/.docker/config.json"": open /root/.docker/config.json: permission denied
+docker: Error response from daemon: Get registry-auth-token: unauthorized",Authentication,Authorization,0.24084455855007703,True,True
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http:///var/run/docker.sock/v1.40/containers/json: dial unix /var/run/docker.sock: connect: permission denied,Container Runtime,Container Runtime,0.411841710166468,True,True
+"permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post ""http:///var/run/docker.sock/v1.24/auth"": dial unix /var/run/docker.sock: connect: permission denied",Container Runtime,Container Runtime,0.28202285768148816,True,True
+"docker: Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post http:///var/run/docker.sock/v1.38/containers/create: dial unix /var/run/docker.sock: connect: permission denied.
+See 'docker run --help'.",Container Runtime,Container Runtime,0.4551404993508364,True,True
+[docker-perm] docker: Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post http:///var/run/docker.sock/v1.26/build?dockerfile=Dockerfile&t=abc:1.0&...: dial unix /var/run/docker.sock: connect: permission denied,Container Runtime,Container Runtime,0.32922560405958357,True,True
+"docker: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get ""http:///var/run/docker.sock/v1.24/version"": dial unix /var/run/docker.sock: connect: permission denied",Container Runtime,Container Runtime,0.2968749422958839,True,True
+"ERROR (SSHKit::Command::Failed): docker exit status: 1
+docker stderr: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post ""http:///var/run/docker.sock/v1.24/auth""",Container Runtime,Container Runtime,0.297870576540566,True,True
+"AWS ECR get-login-password | docker login --password-stdin ERROR: permission denied while trying to connect to the Docker daemon socket
+failed with: Getting Got permission denied while trying to connect to the Docker daemon socket",Container Runtime,Authorization,0.4838950941623607,True,True
+panic: Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http:///var/run/docker.sock/_ping: dial unix /var/run/docker.sock: connect: permission denied,Container Runtime,Container Runtime,0.28834639778748594,True,True
+"WARN: Docker daemon socket file permission issue: /var/run/docker.sock is group root instead of group docker.
+Command failed: docker build .",Container Runtime,Container Runtime,0.3735071629698945,True,True
+"error: failed to run docker: permission denied
+Failed to create overlay network: operation not permitted (requires CAP_NET_ADMIN)",Container Runtime,Authorization,0.32760376993715007,True,True
+Unable to create bridge network: setting up device eth0 in network sandbox failed: operation not permitted,Container Runtime,Network,0.2296358597482854,True,True
+failed to register layer: Error processing tar file(exit status 1): Container ID mapping for uid 1000 failed: Error mapping container uid 1000 to host uid 0: operation not permitted,Container Runtime,Container Runtime,0.3568244428789491,True,True
+"Job for docker.service failed because the control process exited with error code.
+See ""systemctl status docker.service"" and ""journalctl -xe"" for details.",Infrastructure,Infrastructure,0.21865289526715356,True,True
+Error starting daemon: Error initializing network controller: could not delete the default bridge network: network bridge id e5b1ae8b2d6f has active endpoints,Infrastructure,Network,0.34544751581266053,True,True
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?,Infrastructure,Infrastructure,0.5682376681761229,True,True
+"Failed to start Docker Application Container Engine.
+Aug 01 09:22:11 hostname dockerd[1234]: time=""2024-08-01T09:22:11.123Z"" level=warning msg=""Failed to load containers"" error=""...overlay2 layer data inconsistent""",Infrastructure,Container Runtime,0.4920906886998494,True,True
+"dockerd: error layer driver not supported by kernel
+Error starting daemon: overlay2 storage driver not supported on kernel",Infrastructure,Container Runtime,0.5384746754864562,True,True
+Error response from daemon: error while creating mount source path '/var/lib/docker/volumes/mydata/_data': mkdir /var/lib/docker/volumes: permission denied,Infrastructure,Authorization,0.3702211949225981,True,True
+"Starting docker service...
+time=""2024-01-15T08:32:19Z"" level=fatal msg=""failed to start daemon: invalid configuration: invalid default address pool: invalid CIDR address: 172.30.0.0/16 in pool""",Infrastructure,Configuration,0.2641663584290241,True,True
+"dockerd: error loading TLS key pair: open /etc/docker/certs.d/registry.company.com/client.key: no such file or directory
+service start failed",Infrastructure,Security,0.15115185264271727,True,True
+Failed to reload docker daemon: The docker daemon failed to reload configuration. Is /etc/docker/daemon.json valid JSON?,Infrastructure,Container Runtime,0.3896919834278287,True,True
+"docker.service: Main process exited, code=exited, status=1/FAILURE
+dockerexited (code=exited, status=1) since the system process was abruptly terminated",Infrastructure,Infrastructure,0.20910460510546688,True,True
+Error: Could not connect to ECR. An error occurred (ExpiredTokenException) when calling the GetAuthorizationToken operation: Token has expired,Image Management,Authentication,0.2733911436716591,True,True
+An error occurred (RepositoryNotFoundException) when calling the BatchGetImage operation: The repository with name 'my-app' does not exist in the registry with id '123456789012',Image Management,Image Management,0.23283292716836618,True,True
+Error pushing image to ECR: An error occurred (ImageAlreadyExistsException) when calling the PutImage operation: Image with digest sha256:abc123 already exists in the repository,Image Management,Image Management,0.4505535661499239,True,True
+"Error response from daemon: no basic auth credentials
+Status: Authorization header requires 'Credentials' parameter. Authorization=Bearer",Image Management,Image Management,0.23676952173277024,True,True
+Error: registry.access.redhat.com/ubi8: no credentials provided for RHEL registry. ECR cross-region pull rejected: the registry does not exist,Image Management,Image Management,0.7973300899733561,True,False
+"WARNING! Your password will be stored unencrypted in /root/.docker/config.json
+Error response from daemon: login attempt to https://123456789012.dkr.ecr.us-east-1.amazonaws.com/v2/ failed with status: 400 Bad Request",Image Management,Image Management,0.16538576081778175,True,True
+"Error: pull access denied for xxxxyyyyzzzz.dkr.ecr.us-west-2.amazonaws.com/myapp, repository does not exist or may require 'docker login': denied: Your Authorization Token has expired. Please run 'aws ecr get-login'.",Image Management,Authorization,0.60241506745477,True,False
+An error occurred (LifecyclePolicyPreviewNotFoundException) when calling the GetLifecyclePolicyPreview operation: No lifecycle policy preview found for the repository,Image Management,Runtime,0.1329290063458294,True,True
+"amazon-ecr: pulling from public.ecr.aws/amazonlinux/amazonlinux unauthorized: not authenticated
+HTTP 401 from ECR Public",Image Management,Image Management,0.5314236832135995,True,True
+"EcrAuthorizationData: Unable to retrieve authorization token. Retried 3 times; last error: RequestError: send request failed caused by: Post ""https://api.ecr.us-east-1.amazonaws.com/"": dial tcp: lookup api.ecr.us-east-1.amazonaws.com: no such host",Image Management,Image Management,0.13681698424659186,True,True
+Error: Repository policy prohibits push operations from this IP: 203.0.113.0. Operation: BatchCheckLayerAvailability.,Authorization,Repository,0.15721569467427035,True,True
+docker: Error response from daemon: manifest for 123456789.dkr.ecr.us-east-1.amazonaws.com/myapp:v999 not found: manifest unknown: manifest unknown.,Image Management,Image Management,0.8062950038063493,True,False
+"remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/company/private-repo.git/'",Source Control,Authentication,0.6057642384099188,False,True
+"fatal: repository 'https://github.com/company/private-repo/' not found
+remote: Repository not found.",Source Control,Repository,0.5101409515559862,False,True
+"error: could not read Username for 'https://github.com': No such device or address
+fatal: Authentication failed for 'https://github.com/$ORG/$REPO.git'",Source Control,Authentication,0.503254194863988,False,True
+"remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.company.com/group/project.git'",Source Control,Authentication,0.4029715409348209,False,True
+"error: failed to push some refs to 'https://github.com/company/repo.git'
+hint: Updates were rejected because the remote contains work that you do not have locally.
+Hint: Integrate the remote changes (e.g. 'git pull ...') before pushing again.",Source Control,Repository,0.4802610351854421,False,True
+"Cloning into '/tmp/repo'...
+fatal: unable to access 'https://github.com/org/private.git/': SSL certificate problem: certificate verify failed",Security,Security,0.5230364292585837,True,True
+"remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/",Authentication,Authentication,0.49015586938825584,True,True
+"fatal: could not read Username for 'https://bitbucket.org': terminal prompts disabled
+git exited with code 128",Source Control,Runtime,0.20873978772212895,False,True
+"error: key does not contain a section: core.repositoryformatversion=0
+fatal: unable to read config file '/repo/.git/config': No such file or directory",Source Control,Configuration,0.4147514155060979,False,True
+"fatal: credential-osxkeychain is not a git command. See 'git --help'.
+The most similar git commands are: core.git-credential",Source Control,Runtime,0.20114491265537804,False,True
+Error downloading object: file.psd (abc123): Smudge error: Error downloading data/file.psd (abc123): [401] Credentials needed,Source Control,Runtime,0.12407026530234928,False,True
+"Encountered 1 file(s) that should have been pointers, but weren't:
+	models/large-model.bin
+git-lfs filter-process: git-lfs: exit status 1",Source Control,Runtime,0.1841321146631599,False,True
+batch response: This repository is over its data quota. Account responsible for LFS bandwidth should purchase more data packs.,Source Control,Repository,0.26655337096750814,False,True
+"LFS: Error: Storage server returned malformed response. Git LFS pointer parsing failed:
+version https://git-lfs.github.com/spec/v1 oid sha256:abc expected",Source Control,Repository,0.26529363999179106,False,True
+"error: git-lfs filter-process died of signal 15
+fatal: git-lfs/objects/abc123: not a regular file",Source Control,Repository,0.20176756849652658,False,True
+error: Could not complete rebase: git-lfs smudge filter failed on models/large-model.bin: This pointer was expected to have size 2048576 but has size 0,Source Control,Repository,0.13304988715716692,False,True
+"remote: error: File models/checkpoint.h5 is 250.23 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected.",Source Control,Repository,0.17605225077329142,False,True
+"Error: Git LFS server returned 502 Bad Gateway during batch request for 8 objects. Retrying...
+Smudge error on .git-lfs-tmp-file",Source Control,Repository,0.19954796663412389,False,True
+"CONFLICT (modify/delete): large-dataset.csv deleted in HEAD and modified in feature-branch. Version feature-branch of large-dataset.csv left in tree.
+git lfs: 1 file(s) failed to push",Source Control,Repository,0.3656784903934363,False,True
+Git LFS object (sha256:abc123) not found on remote. Make sure you have it locally and run 'git lfs push --all',Source Control,Repository,0.4583107436229745,False,True
+"SEVERE: Failed to load /var/lib/jenkins/config.xml
+java.io.IOException: /var/lib/jenkins/config.xml (Permission denied)",CI Orchestration,Configuration,0.24428291491011253,True,True
+"ERROR: Could not initialize class jenkins.model.Jenkins
+java.lang.ExceptionInInitializerError: Failed to instantiate page decoration
+Failed to start Jenkins",CI Orchestration,CI Orchestration,0.28841943855420965,True,True
+"Jenkins restart failed: Out of memory: Kill process 12345 (java) score 999 or sacrifice child.
+Jenkins process was OOM-killed.",CI Orchestration,Resource Management,0.42301693507084154,True,True
+"Error while loading configuration: /var/lib/jenkins/jobs/pipeline/config.xml
+STACK TRACE: com.thoughtworks.xstream.mapper.CannotResolveClassException: hudson.plugins.jira.JiraProjectProperty",CI Orchestration,Configuration,0.3282246678751323,True,True
+hudson.util.AtomicFileWriter: IOException: /var/lib/jenkins/jobs/my-pipeline/builds/1234/log: Read-only file system,CI Orchestration,CI Orchestration,0.38564683911309533,True,True
+ERROR: Failed to complete plugin update: Requires Jenkins 2.387+ (currently installed: 2.361). Update Jenkins before updating this plugin.,CI Orchestration,Runtime,0.15664737584108346,True,True
+"SEVERE: Agent reconnect failed 5 times, agent is being marked as offline.
+JNLPLauncher: Connection timed out during agent reconnect.",CI Orchestration,Network,0.5041739530099582,True,True
+Jenkins: hudson.model.AdministrativeMonitor: The Jenkins home directory '/var/lib/jenkins' may be low on disk space (threshold: 1 GB).,CI Orchestration,CI Orchestration,0.2027724525113945,True,True
+"FATAL: Failed to startup jenkins.model.Jenkins. Startup aborted.
+java.lang.RuntimeException: Failed to load the startup order: Could not deserialize XML element: securityRealm",CI Orchestration,CI Orchestration,0.22784873406208334,True,True
+"java.io.IOException: Unable to connect to Jenkins, server unreachable after restart. Checked URL: http://jenkins:8080/
+ConnectException: Connection refused",CI Orchestration,Network,0.20838351667090657,True,True
+org.jenkinsci.plugins.scriptsecurity.sandbox.RejectedAccessException: Scripts not permitted to use method hudson.model.ItemGroup getItems,CI Orchestration,Security,0.665504998082975,True,False
+RejectedAccessException: Scripts not permitted to use staticMethod jenkins.model.Jenkins getInstance,CI Orchestration,Security,0.47840627353118204,True,True
+RejectedAccessException: Scripts not permitted to use method org.jenkinsci.plugins.pipeline.github.PullRequestGroovyObject getLabels,CI Orchestration,Security,0.5513059445167128,True,True
+RejectedAccessException: Scripts not permitted to use method groovy.lang.GroovyObject setProperty java.lang.String java.lang.Object (org.ods.OdsContext.env),CI Orchestration,Security,0.4951386962817703,True,True
+Scripts not permitted to use method jenkins.model.Jenkins getNode java.lang.String. Administrators can decide whether to approve or reject this signature.,CI Orchestration,Security,0.3530445679551663,True,True
+RejectedAccessException: Scripts not permitted to use staticMethod org.codehaus.groovy.runtime.DefaultGroovyMethods round,CI Orchestration,Security,0.38737628629919746,True,True
+Rejected: RejectedAccessException: Scripts not permitted to use method groovy.lang.GroovyObject invokeMethod java.lang.String java.lang.Object (org.jenkinsci.plugins.pipeline.github.PullRequestGroovyObject issueComment java.lang.String),CI Orchestration,Security,0.5106359226222696,True,True
+org.jenkinsci.plugins.scriptsecurity.sandbox.RejectedAccessException: unclassified method groovy.json.JsonSlurperClassic parseText java.lang.String in pipeline,CI Orchestration,Security,0.47606406725689615,True,True
+"hudson.AbortException: script returned exit code 1
+RejectedAccessException: Scripts not permitted to use method java.lang.Runtime exec java.lang.String[]",CI Orchestration,Security,0.28978316347228184,True,True
+Caused by: org.jenkinsci.plugins.scriptsecurity.sandbox.RejectedAccessException: unclassified method hudson.model.AbstractBuild getWorkspace,CI Orchestration,Security,0.4399998268132279,True,True
+"RejectedAccessException: Scripts not permitted to use method hudson.model.Run getCause java.lang.Class
+Build aborted due to sandbox restriction",CI Orchestration,Security,0.4035145420947483,True,True
+RejectedAccessException: Scripts not permitted to use new java.io.File java.lang.String in Groovy pipeline,CI Orchestration,Security,0.48680058685378075,True,True
+"Error from server: etcdserver: request timed out
+0/3 nodes are available: 3 Insufficient memory. preemption: 0/3 nodes are available: 3 No preemption victims found",Resource Management,Resource Management,0.13282351222327884,True,True
+"Warning: FailedCreate 45m replicaset-controller Error creating: pods ""my-app-5f4c8b6d7-"" is forbidden: exceeded quota: resource-quota",Resource Management,Storage,0.14361837144738557,True,True
+"Error: container ""my-container"" in pod ""my-pod-abc123"" is not running.
+Error: running exec: post-start lifecycle hook exec: running command: command terminated with exit code 1",Container Runtime,Container Runtime,0.4632524885432387,True,True
+"error: deployment ""my-app"" exceeded its progress deadline
+DeadlineExceeded: Deployment does not have minimum availability.",Deploy,Network,0.10629742411616702,False,True
+"Warning: Readiness probe failed: HTTP probe failed with statuscode: 503
+Ready: 0/1
+kubernetes restarter: Unhealthy pod detected.",Runtime,Runtime,0.1533254977213183,True,True
+"Error: Back-off pulling image ""registry.company.com/app:v1.0.0"" from Kubernetes pod
+ErrImagePull: pull timeout after 120s",Image Management,Image Management,0.6340565423895935,True,False
+"Error: too many retries updating status for pod ""my-app-6b7c8d9f-abc12"". Last error: Operation cannot be fulfilled on pods: the object has been modified",Runtime,Resource Management,0.16480290169833436,True,True
+"W0115 15:33:21 node_lifecycle_controller.go: Node condition taint loop detected. Tainting node node-01 with NoExecute.
+Pod evicted from node.",Infrastructure,Runtime,0.14063508095036356,True,True
+[WARNING]: Kubernetes deployment my-app failed to observe new rollout. Old pods still running after 10 minutes.,Deploy,Infrastructure,0.11486928339423476,False,True
+"error: pods ""my-app-57b9f46c4d-"" is forbidden: unable to validate against any security policy: []",Authorization,Security,0.24186996438732722,True,True
+"Error: Error locking state: Error acquiring the state lock: ConditionalCheckFailedException: The conditional request failed
+Lock Info: ID: c18b397f-817b-b5dc-53cb-cd24ab01f789",Infrastructure,Runtime,0.4482427895110809,True,True
+"Error: Error acquiring the state lock
+Error message: 2 errors occurred:
+* ConditionalCheckFailedException: The conditional request failed
+* unexpected end of JSON input",Infrastructure,Runtime,0.4880088174500222,True,True
+"Error: Error locking state: Error acquiring the state lock: The process cannot access the file because another process has locked a portion of the file.
+Lock Info: ID: beec4f52-583f-cadc-8752-996b0a958e29",Infrastructure,Runtime,0.33857367963294316,True,True
+"Error releasing the state lock! Error message: consul lock was lost
+Terraform acquires a lock when accessing your state to prevent others running Terraform at the same time.",Infrastructure,Runtime,0.23831239185034392,True,True
+"[dup-208] Error: Error locking state: Error acquiring the state lock: ConditionalCheckFailedException: The conditional request failed
+ID: 40e844a6-ebb0-fcfd-da85-5cce5bd1ec89 Path: $STATE_KEY",Infrastructure,Runtime,0.42848060934589033,True,True
+Error acquiring the state lock: AccessDeniedException: User: arn:aws:sts::ACCOUNT:assumed-role/.../ci-pipeline is not authorized to perform: dynamodb:PutItem on resource: .../table/terraform-state-locks,Authorization,Authorization,0.4556184401964415,True,True
+"Failed to unlock state: failed to retrieve lock info: unexpected end of JSON input
+Lock file may be in invalid state.",Infrastructure,Runtime,0.31269078331541345,True,True
+"WARN: Terraform apply cancelled. State lock not released! Run 'terraform force-unlock LOCKID' to release.
+Lock ID: f8a2c3e4-5b6d-47f8-9012-3c4d5e6f7a8b",Infrastructure,Runtime,0.1608254519764836,True,True
+"E: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 12345 (apt-get).
+E: Unable to acquire the dpkg frontend lock, are you root?",Build,Authorization,0.6254758228886709,False,True
+"yarn: error: Resource busy or locked: EBUSY: resource busy or locked, rename 'node_modules/.modules.yaml.tmp' -> 'node_modules/.modules.yaml'",Dependencies,Runtime,0.13188773971652262,True,True
+FATAL: Gradle build daemon process failed to start. Lock file exists at: /home/runner/.gradle/daemon/7.5.1/registry.bin.lock. Another daemon may be running.,Build,Container Runtime,0.12987376286493368,False,True
+terraform: Error locking state: operation is locked by a remote CI job (job_id=5432). Please wait for that job to complete.,Infrastructure,Runtime,0.14426557576713459,True,True
+"State: Terminated Reason: OOMKilled Exit Code: 137 Started: Mon, 18 Jan 2021 18:29:20 +0800 Finished: Mon, 18 Jan 2021 18:31:55 +0800
+Restart Count: 21 Limits: cpu: 1 memory: 1Gi",Runtime,Resource Management,0.2393690274111945,True,True
+"Reason: OOMKilled - exit code: 137
+Cluster-autoscaler pod cluster-autoscaler-556b8f4f8d-2abc3: Back-off restarting failed container",Runtime,Container Runtime,0.4295281652459879,True,True
+"metrics-server-546468bb9-lg8hf 1/2 OOMKilled 505 3d4h
+State: Waiting Reason: CrashLoopBackOff Last State: Terminated Reason: OOMKilled Exit Code: 137
+Limits: cpu: 30m memory: 35Mi",Runtime,Runtime,0.2833800161215237,True,True
+"kyverno pods crash with OOMKilled. CrashLoopBackOff: Back-off restarting failed container kyverno in pod kyverno-6b4f9c5d7-abc12.
+Exit Code: 137. Memory usage: 4Gi (limit 4Gi)",Runtime,Container Runtime,0.38130582247989897,True,True
+"FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory
+ <--- Last few GCs --->
+ <--- JS stacktrace --->",Runtime,Resource Management,0.4442736662748158,True,True
+"java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3210)
+killed by OS OOM killer: signal 9",Runtime,Resource Management,0.8870146036808435,True,False
+"Out of memory: Kill process 24682 (python3) score 983 or sacrifice child
+Killed process 24682 (python3) total-vm:12483704kB, anon-rss:7432368kB",Runtime,Resource Management,0.5229336663980868,True,True
+"ERROR: Container exceeded memory limit. Memory: 2048 MB, Limit: 1024 MB.
+kubectl: pod my-worker-job-abc123 was evicted due to memory pressure",Runtime,Resource Management,0.42536167168584876,True,True
+"GC overhead limit exceeded
+Exception in thread ""main"" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at org.springframework.boot.loader.LaunchedURLClassLoader",Runtime,Resource Management,0.5531256085066537,True,True
+"ERROR: job failed (exit code 137): Out of memory. The job runner ran out of memory.
+ Process 'command ./gradlew test' finished with non-zero exit value 137",Build,Resource Management,0.3092409446892897,False,True
+"[CRITICAL] Node memory exhausted. Available: 0 MB. Pod my-ml-training-abc evicted from node.
+Conditions: MemoryPressure: True",Runtime,Runtime,0.28286101138043235,True,True
+"Segmentation fault (core dumped)
+ERROR: process exited with exit code 139 (SIGSEGV)
+Out of memory crash detected in container my-app",Runtime,Runtime,0.5312825567885749,True,True
+"npm ERR! code ENOTFOUND
+npm ERR! errno ENOTFOUND
+npm ERR! network request to https://registry.npmjs.org/commander failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443",Network,Dependency,0.6025196462864882,True,False
+"WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7fdfdb70c850>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /simple/types-pyyaml/",Network,Network,0.23464221680549702,True,True
+"Error: getaddrinfo ENOTFOUND
+connection getaddrinfo ENOTFOUND
+network This is most likely not a problem with npm itself and is related to network connectivity.",Network,Network,0.38530018710093317,True,True
+"upstream error (URL URL('https://pypi.org/simple/') returned -1 ConnectionError(MaxRetryError(""HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /simple/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f4a52b51760>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))""))): using stale projects list",Network,Network,0.1714737764597341,True,True
+"ERROR: Temporary failure in name resolution
+docker: Failed to connect to registry.example.com port 443: Temporary failure in name resolution.
+See 'docker run --help'.",Network,Container Runtime,0.16819232081233565,True,True
+"dial tcp: lookup kubernetes.default.svc.cluster.local on 10.96.0.10:53: read udp 10.244.0.5:42847->10.96.0.10:53: i/o timeout
+Error: failed to resolve service hostname",Network,Network,0.3367094766843598,True,True
+"Error: dial tcp: lookup my-service.default.svc.cluster.local: no such host
+failed to connect to service endpoint",Network,Network,0.40415267615303024,True,True
+"curl: (6) Could not resolve host: api.example.com
+ssl_error_internal_error_alert on connection to api.example.com:443",Network,Network,0.23973588168983245,True,True
+"ConnectionError: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/$OWNER/$REPO/releases (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x7f>: Failed to resolve 'api.github.com' ([Errno -2] Name or service not known)""))",Network,Network,0.18145542802585413,True,True
+"Error from server: etcdserver: request timed out
+dns: lookup api-int.ocp-cluster.example.com on 172.30.0.10:53: no such host",Network,Network,0.4664156119162013,True,True
+"x509: certificate has expired or is not yet valid: current time 2023-01-01T00:00:00Z is before 2024-06-01T00:00:00Z
+Error: failed to verify certificate (clock skew?)",Security,Security,0.6977930995143377,True,False
+"error: InvalidClientTokenId: Signature expired: 20240101T000000Z is now earlier than 20240601T235959Z (20240602T000029Z - 15 min.)
+Clock skew detected on CI host",Authentication,Network,0.17385446426987528,True,True
+"ntpdate[1234]: no servers can be used, exiting
+Error: NTP synchronization failed. System time may be unreliable.",Infrastructure,Runtime,0.18582420129569802,True,True
+"WARN: Clock drift detected: 47 seconds difference between local time and remote server.
+JWT token validation failed: issued in the future",Security,Configuration,0.12452059408753559,True,True
+"Error: kube-apiserver certificate is not valid: current time is 2024-01-15T08:00:00Z, certificate expires 2024-01-14T23:59:59Z
+NTP drift: -86401 seconds",Security,Security,0.457356741473196,True,True
+"GPG error: http://security.ubuntu.com/ubuntu focal-security InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY
+Clock skew detected: apt-get update failed",Build,Security,0.28188170271029206,False,True
+"docker: Error response from daemon: OCI runtime exec failed: exec failed: unable to start container process: error during container init: error mounting component into path: failed to create symlink: no space left on device: unknown.
+Time mismatch between host and container: 3607 seconds",Infrastructure,Container Runtime,0.8181793676936815,True,False
+"WARNING: system time is 42 minutes ahead of network time
+Error: Elasticsearch certificate validation failed: notBefore check failed (clock skew)",Security,Network,0.25047551403064744,True,True
+"Error: CERTIFICATE_VERIFY_FAILED: CERT_NOT_YET_VALID: Certificate validity error: current time 2020-01-01T00:00:00Z is before 2023-01-01T00:00:00Z
+System date: Mon Jan 01 00:00:00 UTC 2020",Security,Security,0.3757941044479145,True,True
+"chrony: System clock was stepped back by 3602 seconds.
+WARNING: Container clock synchronized but node is drifting. Check hardware RTC.",Infrastructure,Container Runtime,0.13320823977652235,True,True
+"E: Unable to locate package libssl-dev
+E: Package 'libssl-dev' has no installation candidate",Dependencies,Dependencies,0.295095310375274,True,True
+"[dup-249] npm ERR! code ENOTFOUND
+npm ERR! errno ENOTFOUND
+npm ERR! network request to http://registry.npmjs.org/create-react-app failed, reason: getaddrinfo ENOTFOUND proxy.example.com",Dependencies,Dependency,0.19770453060376728,True,True
+"Collecting lxml
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x7f8acf4ca3c8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)': /simple/lxml/",Dependencies,Network,0.2416607107658892,True,True
+error: 14: Could not open file https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm: Curl error (6): Couldn't resolve host name,Dependencies,Runtime,0.17559707238029018,True,True
+"W: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/focal/InRelease Connection failed [IP: 91.189.88.174 80]
+E: Some index files failed to download. They have been ignored, or old ones used instead.",Dependencies,Runtime,0.131721112417312,True,True
+"Error: Package 'nodejs' has no installation candidate
+nodejs: Depends: libnode72 (= 12.22.12~dfsg-1~deb11u3) but it is not going to be installed",Dependencies,Dependencies,0.6496316150899817,True,False
+"yum: Failed to set locale, defaulting to C
+Error: Could not retrieve mirrorlist http://mirrorlist.centos.org/?release=7&arch=x86_64 error was: 14: curl#6 - ""Could not resolve host: mirrorlist.centos.org""",Dependencies,Runtime,0.13664353112681718,True,True
+"gem install rails -v 7.0.4 failed. Gem::Ext::BuildError: ERROR: Failed to build gem native extension. make failed, exit code 2.
+An error occurred while installing nokogiri (1.13.10), and Bundler cannot continue.",Dependencies,Runtime,0.26318079357814655,True,True
+"pip: ERROR: Could not find a version that satisfies the requirement scipy==1.9.0 (from versions: 1.4.1)
+ERROR: No matching distribution found for scipy==1.9.0",Dependencies,Runtime,0.1818127804941956,True,True
+"apt-get: E: Unmet dependencies. Try 'apt --fix-broken install'.
+build-essential: Depends: gcc (>= 4:4.9.1) but gcc:amd64 (4:4.8.4-1ubuntu15) is to be installed",Dependencies,Dependencies,0.6197547006968629,True,False
+"Error: listen EADDRINUSE: address already in use :::8200
+[2021-08-16T21:47:37.011Z] at Server.setupListenHandle [as _listen2] (net.js:1320:16)",Test,Runtime,0.33367573050641075,False,True
+"[0] Error: listen EADDRINUSE: address already in use :::5000
+[0] at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+[0] at listenInCluster (net.js:1366:12)",Test,Runtime,0.3124570002488108,False,True
+"{ code: 'EADDRINUSE', errno: 'EADDRINUSE', syscall: 'listen', address: '::', port: 5000 }
+Firebase emulator: Error starting functions emulator on port 5000",Test,Runtime,0.21935498869934045,False,True
+"Error: listen EADDRINUSE: address already in use :::8081
+Kubernetes Ambient mesh: Unable to bind monitoring port 8081 on pod XXXX-XXXX-wrxsb",Runtime,Runtime,0.25343174079394193,True,True
+[dup-262] Error response from daemon: driver failed programming external connectivity on endpoint myapp-1 (abc123def456): Bind for 0.0.0.0:443 failed: port is already allocated,Container Runtime,Container Runtime,0.9698613939470293,True,False
+"Error: spawn EACCES /usr/local/bin/node: bind EADDRINUSE 0.0.0.0:3000
+Process exited with code 1",Test,Runtime,0.2648161362447175,False,True
+"Error: bind: address already in use
+Error starting Django development server: That port is already in use.
+127.0.0.1:8000: [Errno 98] Address already in use",Test,Runtime,0.3327029112285076,False,True
+"java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+Spring Boot startup failed: Port 8080 already in use",Test,Runtime,0.26715209367600334,False,True
+"OSError: [Errno 98] Address already in use: ('0.0.0.0', 8000)
+Failed to start Flask development server on port 8000",Test,Runtime,0.30303419590621955,False,True
+"torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 54401, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use",Test,Runtime,0.33266657176081427,False,True
+"FATAL: could not open file ""/etc/postgresql/14/main/postgresql.conf"": No such file or directory
+PostgreSQL failed to start",Database,Database,0.31911879798443926,True,True
+"ERROR: canceling statement due to conflict with recovery
+DETAIL: User query might have needed to see row versions that must be removed.",Database,Database,0.324490366606932,True,True
+"LOG: connection received: host=10.0.0.5 port=56789
+FATAL: sorry, too many clients already",Database,Database,0.683898262389485,True,False
+"ERROR: could not resize shared memory segment: No space left on device
+DETAIL: Failed system call was shmget(key=1, size=50462720, 01600).",Database,Resource Management,0.41930329661893856,True,True
+"WARNING: out of shared memory
+ERROR: could not resize shared memory segment ""/PostgreSQL.2024987654.0"": No space left on device",Database,Resource Management,0.6467076729426322,True,False
+"ERROR: deadlock detected
+DETAIL: Process 12345 waits for ShareLock on transaction 67890; blocked by process 23456.
+Process 23456 waits for ShareLock on transaction 12345; blocked by process 12345.",Database,Database,0.6450972472395421,True,False
+"LOG: temporary file: path ""base/pgsql_tmp/pgsql_tmp12345.0"", size 1073741824
+ERROR: could not create temporary file: No space left on device",Database,Storage,0.3833114068633908,True,True
+"PANIC: could not write to file ""pg_wal/000000010000000000000001"": No space left on device
+PostgreSQL crashed. WAL directory is full.",Database,Storage,0.7290919786044997,True,False
+"ERROR: relation ""pg_catalog.pg_largeobject"" does not exist
+FATAL: database system identifier differs between pg_control and pg_filenode.map",Database,Database,0.35927470893239616,True,True
+"HINT: There is an unused replication slot ""pg_slot_1"". Fill the replication slot or drop it.
+ERROR: requested WAL segment has already been removed",Database,Database,0.37139045139304205,True,True
+connection failed: FATAL: remaining connection slots are reserved for non-replication superuser connections,Database,Database,0.7592888968679568,True,False
+System goes up and down when this error occurs: FATAL: remaining connection slots are reserved for non-replication superuser connections,Database,Database,0.6120007612518161,True,False
+Error querying the database: db error: FATAL: remaining connection slots are reserved for non-replication superuser connections,Database,Database,0.9149080823423464,True,False
+2023-06-21 16:03:50.654 ACST [4938] FATAL: remaining connection slots are reserved for non-replication superuser connections,Database,Database,0.6824379435265868,True,False
+Error fetching GTFS entities via GraphQL - Exception while fetching data: org.postgresql.util.PSQLException: FATAL: remaining connection slots are reserved for non-replication superuser connections,Database,Database,0.7466189534963321,True,False
+FATAL: remaining connection slots are reserved for non-replication superuser connections due many idle kafka sink connectors,Database,Database,0.7790343727379694,True,False
+"connection to server at ""localhost"" (127.0.0.1), port 5432 failed: FATAL: remaining connection slots are reserved for non-replication superuser connections",Database,Database,0.6753250955576622,True,False
+[dup-285] Error querying the database: db error: FATAL: remaining connection slots are reserved for non-replication superuser connections,Database,Database,0.9112130275681333,True,False
+"psycopg2.OperationalError: FATAL: remaining connection slots are reserved for non-replication superuser connections
+  connection to server on socket ""/var/run/postgresql/.s.PGSQL.5432"" failed",Database,Database,0.7741466336018495,True,False
+PG::TooManyConnections: ERROR: remaining connection slots are reserved for non-replication superuser connections,Database,Database,0.7785950952822357,True,False
+"ActiveRecord::QueryCanceled: ERROR: canceling statement due to statement timeout
+PG::QueryCanceled: ERROR: statement timeout exceeded (45000ms)",Database,Database,0.27230817877537733,True,True
+"psql: error: connection to server on socket ""/var/run/postgresql/.s.PGSQL.5432"" failed: FATAL: too many connections for role 'readonly_user'",Database,Database,0.5500594628216974,True,True
+"FATAL: requested WAL segment has already been removed
+LOG: replication terminated by primary server
+DETAIL: End of WAL reached on timeline 1",Database,Database,0.4905624698528683,True,True
+"ERROR: replication slot does not exist
+DETAIL: The replication slot has been invalidated because it exceeded max_slot_wal_keep_size.
+HINT: Drop the replication slot.",Database,Database,0.4829425145728673,True,True
+"HINT: Make sure the configuration parameter max_wal_senders is set to an appropriate value.
+FATAL: number of requested standby connections exceeds max_wal_senders (currently 5)",Database,Configuration,0.18305945101261775,True,True
+"DETAIL: Streaming replication has stopped. Connection to the primary server was lost.
+LOG: recovery restart point at 0/15000000",Database,Database,0.545818036401663,True,True
+"ERROR: logical replication target relation ""public.orders"" is not found
+DETAIL: Slot: pglogical_4567
+Context: slot reader, reading from slot pglogical_4567",Database,Database,0.4247089474140477,True,True
+"LOG: standby has been promoted, but primary is still accepting writes. Split-brain detected.",Database,Database,0.15951982244025248,True,True
+"FATAL: timeline 2 of the primary does not match recovery target timeline 1.
+Primary timeline: 2 Replica timeline: 1",Database,Database,0.16556724636206188,True,True
+"WARNING: replication lag 120 seconds; subscriber is behind primary by 2048 WAL blocks
+ERROR: Replication health check failed: lag exceeds 60 second threshold",Database,Database,0.2190126877969178,True,True
+"FATAL: pg_hba.conf rejects connection for host ""10.0.1.50"", user ""replicator"", database ""replication"", SSL off",Database,Authentication,0.6557464340493137,True,False
+"FATAL: could not connect to the primary server: FATAL: role ""replicator"" does not exist",Database,Database,0.4092320798625376,True,True
+"FATAL: pre-existing shared memory block is still in use
+HINT: If you're sure there are no old server processes still running, remove the semaphore file manually and restart PostgreSQL.",Database,Resource Management,0.15026005303282156,True,True
+"pg_ctl: server did not start in time
+FATAL: data directory ""/var/lib/postgresql/14/main"" has wrong ownership
+HINT: The server must be started by the user that owns the data directory.",Database,Database,0.262369777975383,True,True
+"LOG: could not write to file ""pg_wal/00000001000000000000001"": No space left on device
+PANIC: could not write to file
+Server shutting down",Database,Storage,0.833104814757169,True,False
+"FATAL: could not create lock file ""/var/run/postgresql/.s.PGSQL.5432.lock"": Permission denied
+PostgreSQL could not start",Database,Authorization,0.3029101687411884,True,True
+"ERROR: Configuration reload failed: invalid value for parameter ""max_connections"": ""abc""
+HINT: Value must be an integer between 1 and 262143.",Database,Configuration,0.2644422586411025,True,True
+"FATAL: could not map anonymous shared memory: Cannot allocate memory
+DETAIL: Failed system call was mmap(0, 2147483648, ...)",Database,Resource Management,0.5420722707480303,True,True
+"LOG: received fast shutdown request
+FATAL: terminating connection due to administrator command
+LOG: database system is shut down",Database,Database,0.29878358416363265,True,True
+"LOG: checkpoint request timed out
+WARNING: checkpointing has been deferred by 300 seconds
+ERROR: could not extend file: No space left on device",Database,Storage,0.4554658556066471,True,True
+"Error: pg_ctl: could not start server
+Examine the log output.
+[/var/log/postgresql/postgresql-14-main.log]
+FATAL: max_connections cannot be less than superuser_reserved_connections",Database,Database,0.5435799568011123,True,True
+"FATAL: role ""postgres"" does not exist
+pg_restore: error: could not connect to database: connection to server on socket failed",Database,Database,0.8158880976811103,True,False
+"ERROR: index row size 2712 exceeds btree version 4 maximum 2704 for index ""idx_large_column""
+DETAIL: Index row references tuple (0,1) in relation ""large_table"".",Database,Database,0.33360942027663437,True,True
+"ERROR: could not read block 12345 in file ""base/16384/32812"": read only 0 of 8192 bytes
+HINT: Run VACUUM on this table.",Database,Database,0.22594739935019129,True,True
+"WARNING: relation ""public.orders"" contains 9812345 dead rows; running VACUUM is recommended
+auto-vacuum failed: could not open file: no such file or directory",Database,Database,0.2897472540500109,True,True
+"ERROR: duplicate key value violates unique constraint ""idx_user_email_unique""
+DETAIL: Key (email)=(test@example.com) already exists.",Database,Runtime,0.28099810691947086,True,True
+"ERROR: index ""idx_orders_created_at"" contains unexpected zero page at block 0
+HINT: Please REINDEX it.",Database,Runtime,0.20915186596481786,True,True
+"WARNING: transaction ID wraparound is in progress in database ""production"" (9900000 transactions until wraparound)
+ERROR: autovacuum must be enabled to prevent transaction ID wraparound",Database,Database,0.47314682208317427,True,True
+"ERROR: snapshot too old
+DETAIL: A long-running transaction is preventing VACUUM from removing dead rows in relation ""audit_log"".",Database,Database,0.35237034544006374,True,True
+"LOG: automatic vacuum of table ""production.public.events"": index scans: 1, pages: 12000, tuples: 2000000/0, elapsed: 3600.123 s
+WARNING: vacuum took longer than expected",Database,Database,0.2718566036956398,True,True
+"ERROR: invalid page header in block 0 of relation base/16384/12345
+HINT: VACUUM FULL or CLUSTER on relation recommended.",Database,Database,0.2658009459187612,True,True
+"NOTICE: table ""events"" does not have OIDs
+ERROR: out of memory for query result (needed 2048 MB; available: 512 MB)
+VACUUM ANALYZE failed on large table",Database,Resource Management,0.32282755692521325,True,True
+ActiveRecord::NoDatabaseError: We could not find your database: production. Which can be found in the database configuration file located at config/database.yml.,Database,Configuration,0.3427828619332129,True,True
+"SIGTERM received, shutting down...
+App server failed health check after restart: Connection refused on port 8080 after 30 seconds
+Rolling back deployment",Runtime,Network,0.22542881719133478,True,True
+"ERROR: [Errno 111] Connection refused to Redis at redis://localhost:6379
+Celery worker failed to connect; retrying in 5 seconds...
+[CRITICAL] Max retries exceeded",Runtime,Network,0.20869186533228762,True,True
+"Error: ECONNREFUSED - connect ECONNREFUSED 127.0.0.1:27017
+MongoServerError: connect ECONNREFUSED 127.0.0.1:27017
+Application startup failed: MongoDB not reachable",Runtime,Network,0.47180257036625944,True,True
+"Gunicorn: worker failed to boot.
+[CRITICAL] WORKER TIMEOUT (pid: 12345)
+[INFO] Booting worker with pid: 12346
+killed worker 12345 (pid:12345)",Runtime,Runtime,0.22556959010974373,True,True
+"panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x1 addr=0x18 pc=0x5d2345]
+process crashed: restart required",Runtime,Runtime,0.5555884163570168,True,True
+"java.lang.StackOverflowError
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch
+Thread 1 died, JVM terminated with exit code 1",Runtime,Runtime,0.4533759067793703,True,True
+"[ERROR] [2024-03-15T14:22:11] Process 'uwsgi' exited with code 1.
+systemd: flask-app.service: Main process exited, code=exited, status=1/FAILURE
+Failed with result 'exit-code'",Runtime,Runtime,0.34808516313133037,True,True
+"Error starting FastAPI application: address already in use on port 8000
+Uvicorn failed to bind to 0.0.0.0:8000
+Process terminated with exit code 1",Runtime,Runtime,0.5767282467840534,True,True
+"Error: Cannot find module '/app/dist/server.js'
+Node.js application failed to start: ENOENT: no such file or directory, stat '/app/dist/server.js'",Runtime,Dependencies,0.26678376556995453,True,True
+"Error: HTTP 429 Too Many Requests
+Retry-After: 60
+GitHub API rate limit exceeded. Rate limit: 60 requests per hour for unauthenticated requests.",API,API,0.8195149919963921,True,False
+"RequestError: connect ETIMEDOUT 54.239.20.23:443
+Error calling AWS API after 3 retries: Network timeout. Waiting before retrying.",API,Network,0.5942467509864372,True,True
+docker: Error response from daemon: toomanyrequests: You have reached your pull rate limit. You may increase the limit by authenticating: https://www.docker.com/increase-rate-limit,Image Management,Resource,0.7518701177961099,True,False
+"ERROR: Service 'database' is not running. Waiting for database to become available... [attempt 1/30]
+Error: connect ECONNREFUSED 127.0.0.1:5432",Database,Network,0.32751915509712326,True,True
+"ERROR: Request failed (503 Service Unavailable). Retrying after 30 seconds. [1/5]
+AWS CodeBuild: service unavailable, retrying build job in 60 seconds",CI Orchestration,Infrastructure,0.15073192386354164,True,True
+com.amazonaws.SdkClientException: Unable to find a region via the region provider chain. Retrying after exponential backoff: attempt 3/5,Configuration,API,0.1907756365006137,True,True
+WARNING: Waiting for deployment to roll out. 0/3 new pods are available. Retrying in 30 seconds. [attempt 4/10],Deploy,Network,0.12402785271448359,False,True
+"Waiting for elasticsearch to start...
+timeout after 60 seconds. Container status: starting
+ERROR: Service did not become healthy within timeout",Runtime,Network,0.18881133138674797,True,True
+Error: S3 upload failed: SlowDown: Please reduce your request rate. Retrying upload after exponential backoff delay [3/5 attempts],API,API,0.40650594759394315,True,True
+"WARN: Terraform resource ""aws_iam_role.deployment_role"" is being created. Waiting for propagation (IAM changes take up to 15 seconds to propagate).",Infrastructure,Configuration,0.11787778256901757,True,True
+"git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights and the repository exists.",Source Control,Repository,0.3918920282852218,False,True
+"git push git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+git push --set-upstream origin master failed",Source Control,Repository,0.5571963103979927,False,True
+"git clone git@github.com:HeavySnowJakarta/spacedrive.git
+Cloning into 'spacedrive'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.",Source Control,Repository,0.5822348885922485,False,True
+"$ git push git@github.com: Permission denied (publickey). fatal: Could not read from remote repository.
+Please make sure you have the correct access rights",Source Control,Repository,0.4185185667690386,False,True
+"Unable to clone repository using ssh
+git clone git@github.com:Hoet/mauricetest.git
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.",Source Control,Repository,0.7195983578883196,False,True
+"Host key verification failed.
+Add correct host key in /root/.ssh/known_hosts to get rid of this message.
+no hostkey alg
+fatal: Could not read from remote repository.",Source Control,Authentication,0.2362422244986771,False,True
+"ERROR: Repository not found. (RepositoryNotFound)
+Identities: RSA SHA256:abc123
+Authentication failed on all methods for user 'git'",Source Control,Authentication,0.30887138830143396,False,True
+"Warning: the ECDSA host key for 'github.com' differs from the key for the IP address '140.82.121.3'
+Offending key for IP in /root/.ssh/known_hosts:1",Source Control,Runtime,0.15315084241236193,False,True
+"docker: Got permission denied while trying to connect to Docker socket
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository. Please make sure you have the correct access rights",Source Control,Authorization,0.49121816915829347,False,True
+"Load key ""/root/.ssh/id_rsa"": No such file or directory
+git@gitlab.company.com: Permission denied (publickey).
+fatal: Could not read from remote repository.",Source Control,Authorization,0.14895030869287273,False,True
+"fatal: Could not read from remote repository.
+git@github.com: Permission denied (publickey).
+ERROR: Deploy key has been deleted or revoked. Please re-generate and add to repository.",Source Control,Repository,0.34049648202730726,False,True
+"Too many authentication failures for git
+PubkeyAuthentication: server sent disconnect message type 2 (protocol error): Too many authentication failures",Source Control,Authentication,0.4142702668191334,False,True
+"mount: /dev/xvdf: can't read superblock
+Error: failed to attach volume vol-0abc123def456 to /data",Storage,Storage,0.4203229996554928,True,True
+"Error: failed to provision volume with StorageClass ""gp2"": googleapi: Error 403: PERMISSION_DENIED. Kubernetes PVC pending.",Storage,Runtime,0.26483613261756384,True,True
+"mount: mount point /mnt/efs does not exist
+Error mounting NFS: mount.nfs: Failed to resolve server fs-0abc123.efs.us-east-1.amazonaws.com: Name or service not known",Storage,Infrastructure,0.24224215627432552,True,True
+Error response from daemon: failed to create endpoint my-container on network bridge: failed to add the host (veth1234abc) <=> sandbox (veth5678def) pair interfaces: operation not supported,Infrastructure,Container Runtime,0.5718980551752683,True,True
+"Error: PersistentVolume pv-001 cannot be mounted: disk format: mount of /dev/nvme1n1 failed: mount: /mnt/data: wrong fs type, bad option, bad superblock on /dev/nvme1n1",Storage,Storage,0.36730021088817416,True,True
+"kubelet: error syncing pod ""my-pod"": failed to ""StartContainer"" for ""container-1"" with RunContainerError: failed to create containerd task: failed to create shim task: OCI runtime create failed: runc create failed: container_linux.go:380: starting container process caused: process_linux.go:545: container init caused: rootfs_linux.go:76: mounting ""/var/data"" to rootfs at ""/data"" caused: mount through procfd: not a directory: unknown",Container Runtime,Container Runtime,0.6594791339447488,True,False
+"error: failed to provision volume with StorageClass ""standard"": RPC error: code = InvalidArgument desc = CreateVolume called with required capacity 0",Storage,Runtime,0.34833831513995017,True,True
+DeviceIsBusy: the device is still in use after 10 attempts to unmount it. Ensure no processes are using the volume.,Storage,Storage,0.16660151956742222,True,True
+"mount: mounting tmpfs on /dev/shm failed: Cannot allocate memory
+Error: container rootfs overlay2 mount failed: no space left on device",Storage,Resource Management,0.4390351430712123,True,True
+"Error: Failed to mount EFS file system. Mount target is not available in subnet. Subnet: subnet-abc123, AZ: us-east-1a does not have an EFS mount target.",Storage,Infrastructure,0.2383884314248083,True,True
+Error: creating CloudFormation Stack (MyStack): AlreadyExistsException: Stack [MyStack] already exists,Infrastructure,Infrastructure,0.1426204166337526,True,True
+Error: creating CloudFormation Stack Set (MyStackSet): ValidationError: Template format error: [/Resources/MyBucket/Properties/BucketName] has invalid value 'my-bucket',Infrastructure,Configuration,0.21128720133936715,True,True
+Error: updating CloudFormation Stack (MyStack): ValidationError: No updates are to be performed.,Infrastructure,Infrastructure,0.15513082231471398,True,True
+Error: Terraform plan shows 13 changes but CloudFormation Stack MyStack is in ROLLBACK_COMPLETE state. Manual deletion required.,Infrastructure,Infrastructure,0.30563408959157484,True,True
+"Error: Provider configuration not present
+To work with provider.aws in this module, the provider needs to be configured.",Configuration,Configuration,0.44376654656459374,True,True
+Error: creating CloudFormation Stack (VPCStack): InsufficientCapabilities: Requires capabilities : [CAPABILITY_IAM],Authorization,Infrastructure,0.21279794332288052,True,True
+Error: error waiting for CloudFormation Stack (MyStack) to become ready: CREATE_FAILED. Most recent status reason: The following resource(s) failed to create: [MyRDSInstance].,Infrastructure,Infrastructure,0.2132946832118905,True,True
+Error: error reading CloudFormation Stack (PipelineStack): ValidationError: Stack with id PipelineStack does not exist,Infrastructure,Infrastructure,0.13483769810628013,True,True
+"Error: Error modifying DB Parameter Group: DBParameterGroupNotFound: DB parameter group 'rds-postgres14-custom' not found.
+ with aws_cloudformation_stack.rds",Infrastructure,Database,0.16431592170912945,True,True
+Error: Error deleting CloudFormation Stack (MyStack): OperationInProgressException: Another operation is in progress on stack MyStack: arn:aws:cloudformation:...:changeSet/...,Infrastructure,Resource,0.13922649503346726,True,True
+tls: failed to verify certificate: x509: certificate signed by unknown authority,Security,Security,0.9061508171915763,True,False
+"NSS error -12263 (SSL_ERROR_RX_RECORD_TOO_LONG)
+curl: (35) SSL received a record that exceeded the maximum permissible length.",Security,Security,0.14087930466908036,True,True
+SSL_ERROR_RX_RECORD_TOO_LONG: Secure Connection Failed during connection to https://localhost:8080,Security,Network,0.2578095411723935,True,True
+x509: certificate has expired or is not yet valid: current time 2024-03-15T14:22:11Z is after 2024-01-01T00:00:00Z,Security,Security,0.6782360680996715,True,False
+"curl: (60) SSL certificate problem: certificate is not yet valid
+More details here: https://curl.haxx.se/docs/sslcerts.html
+not-before: 2025-01-01T00:00:00Z, now: 2024-12-31T23:59:59Z",Security,Security,0.6156395827210236,True,False
+"error: failed to build request to https://example.com: Get ""https://example.com"": x509: certificate relies on legacy Common Name field, use SANs instead",Security,Security,0.31203667354690673,True,True
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target,Security,Security,0.4811206083810848,True,True
+"error: Get ""https://kubernetes.default.svc"": x509: certificate signed by unknown authority (possibly because of ""crypto/rsa: verification error"" while trying to verify candidate authority certificate ""kubernetes"")",Security,Security,0.6071020476495017,True,False
+"tls: failed to verify client's certificate: x509: certificate has expired or is not yet valid: current time 2024-12-01T00:00:00Z is after 2024-11-30T23:59:59Z
+ERROR: mutual TLS authentication failed",Security,Security,0.8021777360361995,True,False
+"SSLError: HTTPSConnectionPool(host='registry.company.com', port=5000): Max retries exceeded with url: /v2/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate')))",Security,Security,0.7256519903610404,True,False
+Error: TLS certificate for 'api.prod.internal' is missing required extensions (CA:TRUE). Certificate chain validation failed.,Security,Security,0.6589257178791368,True,False
+"TLSHandshakeTimeout: Remote server closed connection during TLS handshake on port 443.
+Retried 5 times, all failed. Certificate file is 0 bytes.",Security,Security,0.31804045617264387,True,True
+Application crash: unrecoverable core dump detected. Signal 11 (SIGSEGV) received. Process: my-service (pid 1234). Core dump written to /var/core/my-service.1234,Runtime,Runtime,0.21656566373919606,True,True
+FATAL: SSL_ERROR_HANDSHAKE_FAILURE_ALERT: NSS error -12227 (OSCP check failed). Certificate has been revoked by the CA.,Security,Security,0.39725038719789124,True,True
+Error: Image 'my-image:v1.0' was deleted from the registry 3 days ago and cannot be recovered. Emergency rollback is not possible.,Image Management,Image Management,0.38257220603188374,True,True
+FATAL: Database corruption detected. Block 42 of relation 'orders' is corrupted and cannot be repaired. Data loss has occurred.,Database,Database,0.5850991584784284,True,True
+ComplianceException: Production deployment rejected: PCI-DSS compliance check failed. Manual security review required before deployment can proceed.,Security,Security,0.365273947924741,True,True
+ERROR: License key expired. Your license for 'Enterprise Plugin XYZ' expired on 2024-01-01. Please renew to continue.,CI Orchestration,Configuration,0.2720801011626242,True,True
+terraform: Error: the resource 'aws_s3_bucket.prod_data' cannot be destroyed because it contains data that would cause permanent data loss. Requires explicit approval.,Infrastructure,Configuration,0.14155624898134336,True,True
+CRITICAL: Hardware failure detected on node worker-04. RAID array degraded. Disk /dev/sdb is failing (S.M.A.R.T. status: FAILING_NOW). Node has been cordoned.,Infrastructure,Storage,0.281407090576888,True,True
+Error: AWS account 123456789012 has been suspended due to billing violation. All API calls will fail until the account is restored.,Authentication,API,0.14458601413423391,True,True
+Fatal: Git repository history is corrupt. fatal: object file .git/objects/abc123 is empty. Run git fsck to verify.,Source Control,Repository,0.5075571568975613,False,True
+CRITICAL: Network partition detected. Split-brain condition in etcd cluster. 2/5 nodes are unreachable. Kubernetes control plane is degraded.,Infrastructure,Runtime,0.22352464935081415,True,True
+Error: Secret 'prod/db-password' in AWS Secrets Manager has been permanently deleted (DeletedDate: 2024-01-01T00:00:00Z). Recovery period has ended.,Security,Configuration,0.19485990935179986,True,True
+"ERROR: Node.js v12.x has reached end of life on April 30, 2022. Security vulnerabilities will not be patched. Deployment blocked by security policy.",Security,Security,0.6217713637636081,True,False
+ALERT: Production database dump is 0 bytes. Backup job failed silently for 30 days. No valid backup exists for disaster recovery.,Monitoring,Database,0.18895169364881997,True,True
+Error: IP address 203.0.113.45 has been blocked by the deployment target firewall. Contact the security team to whitelist the CI runner IP.,Security,Security,0.40897246066036275,True,True
+"TLS Error: TLS key negotiation failed to occur within 60 seconds (check your network connectivity)
+TLS Error: TLS handshake failed
+OpenVPN exiting",Network,Security,0.29798208097865625,True,True
+"ERROR: Connection to VPN gateway failed: Network unreachable
+openssl: error:00000000:lib(0):func(0):reason(0) ssl routines
+strongswan[1234]: received INTERNAL_ADDRESS_FAILURE notify",Network,Network,0.5282272858642366,True,True
+NetworkError: Unable to establish VPN connection. Error code: 789 (The L2TP connection attempt failed because the security layer encountered a processing error during initial negotiations with the remote computer.),Network,Network,0.21332365085385632,True,True
+"wireguard: peer (abc123): Handshake for peer did not complete after 5 seconds, retrying
+wg: timeout while waiting for handshake from peer $PEER_KEY",Network,Network,0.27770203293723134,True,True
+"Cisco AnyConnect: Connection attempt failed. Reason: Network connectivity issue detected between the client and the gateway.
+Error: Failed to negotiate DTLS connection.",Network,Network,0.4934543998802847,True,True
+"Error: VPN tunnel is down. Last successful heartbeat: 300 seconds ago. Reconnecting...
+ip xfrm state: ACQUIREEXPIRED: IPSec SA acquisition timed out",Network,Network,0.43096002786574633,True,True
+"WARN: VPN IP address changed from 10.8.0.5 to 10.8.0.8 after reconnect. Update DNS and routing tables.
+Route to 192.168.0.0/16 via 10.8.0.1 unreachable.",Network,Network,0.6004199876888157,True,False
+ERROR: Cloud VPN tunnel 'vpn-tunnel-01' state is DOWN. Peer gateway not responding. GCP Cloud VPN Uptime: 0%.,Network,Network,0.25174189785955586,True,True
+VPN Error 809: The network connection between your computer and the VPN server could not be established because the remote server is not responding.,Network,Network,0.38372161143306527,True,True
+Error: AWS Site-to-Site VPN tunnel is down. BGP session to Customer Gateway 203.0.113.10 is down. Tunnel1 Status: DOWN. Check customer gateway configuration.,Network,Network,0.2238925560216154,True,True
+remote: Repository access blocked: You do not have permission to access 'company/private-repo'. Check that your account has been granted access to this repository.,Repository,Repository,0.19581805583936882,True,True
+"error: Repository 'https://github.com/company/repo.git/' not found or you may not have access.
+fatal: repository 'https://github.com/company/repo.git/' not found",Repository,Repository,0.34029810031156893,True,True
+Repository not found or you do not have access. ERROR: The `git` command was successful but repository is not available. fatal: repository not found,Repository,Repository,0.36334143348032305,True,True
+"ERROR: Repository 'org/repo' archived. Push access to archived repositories is restricted. To unarchive the repository, contact your organization admin.",Repository,Repository,0.4066146229860624,True,True
+"fatal: refusing to merge unrelated histories
+git pull failed: The current branch has no tracking information. Push rejected: merge of unrelated history not permitted by repository policy.",Repository,Repository,0.6511105603729479,True,False
+"SLOW QUERY: duration: 45321.543 ms  execute <unnamed>: SELECT * FROM audit_log WHERE created_at > $1 ORDER BY created_at DESC
+Explain: Seq Scan on audit_log  (cost=0.00..984321.23 rows=5432148)",Performance,Database,0.5562514716677992,True,True
+CPU throttling detected: container my-app-7f8b6d4f9-abc12 CPU usage at 980% of 1000m limit for 120s. Response time degraded from 50ms to 3200ms. Performance SLO breached.,Performance,Resource Management,0.15938346108788704,True,True
+pg_stat_activity: 47 long-running queries > 300s. Autovacuum blocked by long-running transactions. Table bloat: 8.3GB / 2.1GB live. Performance degraded 10x vs baseline.,Performance,Database,0.33556117855532136,True,True
+WARN: Response time p99 = 8.2s (SLO: 500ms). Thread pool exhausted: 200/200 threads in use. Queue depth: 1847. JVM GC overhead: 96%. Application unresponsive.,Performance,Runtime,0.19675936473067623,True,True
+ERROR: query plan used HashAggregate with estimated 2.3GB work_mem but only 512MB available. Falling back to disk-based hashing. Query elapsed: 834s. Performance degraded.,Performance,Runtime,0.1700158301756182,True,True
+ALERT [PagerDuty]: Error rate 34% (threshold: 1%). Service: payment-api. Incident INC-4821 opened. Runbook: https://wiki.company.com/runbooks/payment-api-errors. No automated remediation available.,Monitoring,Security,0.1673124653253172,True,True
+Datadog monitor 'prod.api.latency.p99' triggered: p99 latency = 12.3s (threshold: 2s). Anomaly detection: pattern does not match known issues. Manual investigation required.,Monitoring,Monitoring,0.4067113825948804,True,True
+"Prometheus alert: KubePodCrashLooping
+Pod payment-api-7b9f6d5c4d-abc12 has been restarting for 2 hours with different exit codes (1, 137, 143). Root cause undetermined. Escalate to on-call.",Monitoring,Runtime,0.19878811823274253,True,True
+Grafana alert: Disk I/O saturation 99% on /dev/sda. Wait time: 843ms avg. All application queries timing out. Storage performance degraded beyond recovery without hardware intervention.,Monitoring,Storage,0.18223466393613863,True,True
+"pgBadger alert: 8,432 slow queries > 5000ms in last 15 minutes. Top query accounts for 67% of total DB time. Missing pg_stat_statements data — monitoring not configured. Cannot identify root cause.",Monitoring,Database,0.20997860795026,True,True
+Error: Failed to upload artifact 'app-1.2.3.jar' to S3 bucket 'ci-artifacts-prod'. AccessDenied: s3:PutObject permission missing. Artifact storage failed.,Artifact Storage,Storage,0.6648863876693626,False,True
+"Artifact upload failed: hudson.FilePath copy to remote: java.io.IOException: No space left on device
+Artifact archiving failed for 'target/*.jar'. Free disk: 12MB / 50GB.",Artifact Storage,Storage,0.31576165847765725,False,True
+ERROR: Failed to download artifact 'com.company:shared-lib:2.3.1' from Nexus repository. HTTP 404: artifact not found in repository 'releases'. Nexus may need to be synced.,Artifact Storage,Repository,0.15169539836251725,False,True
+WARN: Artifact promotion failed: source artifact 'app:1.2.3-rc1' in staging ECR not found in production ECR. Cross-account artifact copy requires IAM permission ecr:BatchCheckLayerAvailability.,Artifact Storage,Image Management,0.4060560877679885,False,True
+Error: Artifact upload to GitHub Packages failed: 413 Request Entity Too Large. Artifact 'build-output.zip' (2.3 GB) exceeds GitHub Actions artifact size limit of 2 GB.,Artifact Storage,Storage,0.1560682115745138,False,True
+"error: package 'libpq-dev' not found
+The following packages have unmet dependencies: libpq-dev : Depends: libssl-dev but it is not going to be installed",Dependency,Dependencies,0.7932022092823391,True,False
+"ERROR: conflicting dependencies:
+  flask==2.3.3 requires click>=8.1.3
+  flask-sqlalchemy==3.1.1 requires flask>=2.3.2
+  but click 7.1.2 is installed",Dependency,Dependencies,0.4493821514323428,True,True
+"error TS2688: Cannot find type definition file for 'node'.
+  The file is in the program because:
+    Entry point of type library 'node' specified in compilerOptions
+  Try `npm install @types/node`",Dependency,Dependencies,0.1577381121508034,True,True
+"bundler: failed to load command: rails
+could not find activestorage-7.0.8 in locally installed gems
+Run `bundle install` to install missing gems.",Dependency,Dependencies,0.31803083858307135,True,True
+AutoScaling: Failed to launch instance: Max count of On-Demand Standard instances (512) exceeded. Current count: 512. Required: 16 more.,Resource Management,Resource Management,0.13770315468149574,True,True
+"ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'api.azure.example.com'. (_ssl.c:1129)",Security,Security,0.7635739897045617,True,False
+Error: Azure Key Vault secret 'app-db-password' could not be accessed. The client does not have secrets/get permission on key vault 'prod-keyvault'. StatusCode: 403,Configuration,Configuration,0.1544527870629257,True,True
+Error: AKS node pool scale out failed: OperationNotAllowed: Cannot scale node pool because a quota limit has been exceeded. Current: 24 cores. Limit: 24 cores. Region: eastus.,Resource Management,Resource Management,0.14035895878579815,True,True
+"E: Package 'python3-pip' has no installation candidate
+Note, selecting 'python3-pip' instead of 'python-pip'
+E: Package 'python-pip' has no installation candidate
+dpkg: error processing",Dependencies,Dependencies,0.5482753524748192,True,True
+"failed to start containerd: failed to load config: open /etc/containerd/config.toml: no such file or directory
+Failed to connect to containerd service. Docker cannot start.",Container,Container Runtime,0.47886452279918723,False,True
+"Error: GPG check FAILED for package python3-devel-3.11.2-1.el9.x86_64 (BaseOS)
+dnf: GPG check failed. Repository key rotation may be required.",Dependencies,Security,0.11563010309799886,True,True
+"Error: Unit docker.service not found.
+Failed to start docker.service: Unit not found.
+note: Docker is not installed on Rocky Linux 9 by default; use podman or install docker-ce manually.",Infrastructure,Infrastructure,0.34307008344927786,True,True
+"Out of memory condition on Rocky Linux 9: kernel: oom-kill: constraint=CONSTRAINT_NONE, nodemask=(null), cpuset=/, mems_allowed=0, oom_score_adj=0, pid=14532, uid=1000, tgid=14532, task=python3, adj=0, mem=7812kB, file=0kB",Runtime,Resource Management,0.27230142546068153,True,True
+"panic: fiber: listen tcp 0.0.0.0:3000: bind: address already in use
+goroutine 1 [running]:
+Fiber server failed to start. Port 3000 is occupied.",Runtime,Runtime,0.33428176610192273,True,True
+"go: finding module for package github.com/gofiber/fiber/v3: module github.com/gofiber/fiber/v3@latest: no matching versions for query ""latest""
+cannot find module providing package",Dependency,Dependencies,0.43690785274363303,True,True
+"panic: runtime error: invalid memory address or nil pointer dereference in github.com/gofiber/fiber
+fiber: bind: address already in use :::8080
+Cannot start Fiber application.",Test,Runtime,0.41921498670241153,False,True
+curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.example.com:443. TLSv1.2 is disabled by security policy. Minimum TLS version required: TLSv1.3.,Security,Security,0.7503067196580002,True,False
+FATAL: Application license validation failed. License server at license.vendor.com unreachable. License key expired 30 days ago. All pipeline jobs blocked.,CI/CD,Configuration,0.18962001304193946,False,True
+Error: IAM role 'arn:aws:iam::ACCOUNT:role/DeployRole' has been permanently deleted. Cannot restore IAM roles through the AWS API once deleted.,Authorization,Authorization,0.5866950511827921,True,True
+CODEOWNERS violation: files in 'src/payments/' require review from team 'payments-team'. Team has been dissolved and no members exist. Pull request cannot be merged.,Authorization,Repository,0.11790461330110175,True,True
+Error: Terraform destroy blocked: 'prevent_destroy = true' is set on aws_rds_cluster.production. This lifecycle rule prevents automated destruction of the database.,Infrastructure,Configuration,0.12741073850010684,True,True
+Error: PodSecurityAdmission: pods with privileged=true are forbidden in namespace 'production' by PodSecurity enforce policy 'restricted'. Cannot run required privileged container.,Authorization,Security,0.20745570896485274,True,True
+VPN: Split tunneling policy violation detected. Traffic to 10.0.0.0/8 via VPN is required by compliance policy but client routing table bypasses VPN for this subnet. Deployment blocked.,Security,Network,0.3088924237506746,True,True
+"ERROR: permission denied for table orders
+DETAIL: role 'app_user' does not have SELECT privilege on relation orders. Database administrator must grant required permissions.",Authorization,Authorization,0.5050280130213688,True,True
+Docker content trust: image signature validation failed. Image 'company/app:v1.2.3' has been signed with an untrusted key. Deployment rejected by content trust policy.,Security,Security,0.26462662165694206,True,True
+The bucket 'prod-deployment-artifacts' you tried to access does not exist or you don't have permission. The bucket may have been permanently deleted.,Storage,Authorization,0.20366378331780524,True,True
+Error: This repository has been disabled. Contact GitHub support. Billing information may be outdated or terms of service agreement pending.,Repository,API,0.12340186150995608,True,True
+LDAP authentication failure: Cannot contact LDAP server. Server 'ldap.company.internal:389' is unreachable. All Jenkins logins disabled. Emergency access requires console admin.,Authentication,Authentication,0.5300304148651855,True,True
+Fatal: etcd data corruption detected. 'etcdctl check datahash' returned mismatch. Kubernetes control plane state is unreliable. Full cluster restore from backup required.,Infrastructure,Database,0.2063980362538009,True,True
+BGP session down: peer 203.0.113.1 (AS65001) not reachable. All external traffic routing affected. ISP outage detected. No automated failover configured for this circuit.,Network,Network,0.4207782370605601,True,True
+Error: Error acquiring the state lock: state is permanently locked by user 'terraform-ci@company.com' (left on 2024-01-01). Lock has been held > 72 hours. DB record may be corrupt.,Infrastructure,Storage,0.23520683134398654,True,True
+AWS Organizations SCP prevents all ECR actions in this account: explicitly denied by SCP 'p-xxxxxxxxx'. Contact your AWS Organizations management account administrator.,Authorization,Configuration,0.29091468284499683,True,True
+Vulnerability CRITICAL CVE-2024-1234 detected in base image ubuntu:20.04. Security policy blocks deployment of images with CVSS >= 9.0. Rebuild with patched base image required.,Security,Security,0.4365506720948365,True,True
+Payment gateway webhook validation failed: HMAC signature mismatch. Secret key has been rotated by payment provider but not updated in secrets manager. All payment callbacks rejected.,Security,Configuration,0.43119769227847665,True,True
+SAML SSO enforcement: Your organization requires SAML authentication. The GitHub Actions machine user 'ci-bot' has not authorized its PAT with SAML SSO. All GitHub API calls blocked.,Authentication,Authentication,0.6917704033226664,True,False
+"FATAL: could not write to file 'base/16384/1249': No space left on device
+FATAL: could not extend relation: No space left on device
+All write operations to database 'production' blocked.",Storage,Storage,0.6690428176985511,True,False
+EKS addon 'vpc-cni' upgrade failed: addon 'vpc-cni' version 'v1.13.0' is not compatible with Kubernetes version '1.24'. Cluster upgrade required before addon can be updated.,Infrastructure,Dependencies,0.18882400248331077,True,True
+Code signing error: Developer ID certificate 'Apple Development: company@example.com (XXXXXXXXXX)' has been revoked. Signed binaries rejected by macOS Gatekeeper. CI build blocked.,Security,Security,0.4928475427187475,True,True
+Error: Error creating RDS Cluster: InvalidParameterCombination: RDS Cluster Encryption requires Enhanced Monitoring to be enabled when using db.r6g.large instances in region eu-central-1.,Infrastructure,Resource Management,0.1210402691931235,True,True
+Kinesis Data Stream 'prod-events' shard limit exceeded: ShardLimitExceededException. Maximum shard count for account in us-east-1 is 200 (current: 200). Requires limit increase via AWS support.,Resource,Infrastructure,0.20872361190363364,True,True
+FATAL: Production deploy rejected: Change Advisory Board approval required. CAB ticket CAB-2024-1891 has not been approved. No automated override available.,Security,Configuration,0.21380208952314886,True,True
+Error: Certificate Authority signing key has been compromised. All certificates issued by this CA are now untrusted. Emergency re-issuance of all TLS certificates required.,Security,Security,0.7078125708260296,True,False
+kubernetes: Node cordoned automatically. Reason: KernelDeadlock detected. Node worker-07 kernel panic at 2024-03-15T14:22:11Z. Manual hardware inspection required.,Infrastructure,Infrastructure,0.29519332344509897,True,True
+GDPR data deletion request cannot be automated: customer data in 'analytics_raw' table is part of aggregated reports that must remain. Legal team must approve deletion strategy.,Security,Resource Management,0.13846052704548584,True,True
+ERROR: EKS cluster 'prod-cluster' is running Kubernetes 1.21 which reached end-of-life. AWS has disabled new node group creation on EOL clusters.,Infrastructure,Runtime,0.1148663953319307,True,True
+"fatal: the remote end hung up unexpectedly
+error: failed to push some refs to 'git@github.com:org/monorepo.git'
+hint: the receiving end does not allow deletion of the refs that are being updated.",Repository,Repository,0.3001708322512977,True,True
+AWS RDS: automated backup failed. Error: Cannot take snapshot of DB instance 'prod-db' because it is in a deleting state. Data may be unrecoverable if instance deletion completes.,Database,Resource Management,0.1377163567892377,True,True
+Terraform Cloud: Workspace 'prod-infra' is locked by plan run pl-XXXXXXXXXXXXXXX that is in a discarded state and cannot be automatically unlocked. Contact Terraform Cloud support.,Infrastructure,Configuration,0.13521734941765198,True,True
+"Error: Cannot delete VPC 'vpc-0abc123def456'. The VPC has dependencies that must be removed first: 3 subnets, 2 security groups, 1 internet gateway. Cannot automate due to unknown active resources.",Infrastructure,Security,0.15068553656788491,True,True
+SOC 2 audit gate: Deployment to environment 'prod-us' requires SOC 2 compliant audit log. Audit logging service is currently offline. Deployment blocked per compliance policy.,Security,Security,0.177035400568298,True,True
+azure: Operation 'providers/Microsoft.Storage/storageAccounts/proddata' failed with error code ResourceNotFound. Storage account has been permanently deleted and cannot be restored.,Storage,Runtime,0.12284605023533826,True,True
+Pipeline blocked: Secret 'PROD_API_KEY' has expired (rotated by vendor). All downstream API calls failing with 401. New key must be obtained from vendor portal and rotated manually.,Authentication,Security,0.187576572245594,True,True
+"PostgreSQL: standby server has diverged from primary by 847,234 transactions. Point-in-time recovery from backup is required. Attempting to reconnect will cause data loss.",Database,Database,0.5770520976633305,True,True
+Cannot delete ECR repository 'prod/app': repository still has 847 images. Lifecycle policy cannot run: ECR lifecycle policy has never been configured for this repository.,Image Management,Image Management,0.5263052812855137,True,True
+GitHub Actions: Workflow 'deploy-production.yml' requires environment 'production'. Environment 'production' requires a reviewer from team 'ops-team'. No team members are available to approve.,Authorization,Configuration,0.20135777561229098,True,True
+FATAL: Kubernetes mutating webhook 'inject-sidecar.company.com' returned error 500. 100% of pod creation failing. Webhook certificate has expired. Cluster is completely unavailable.,Infrastructure,Security,0.24412284358093606,True,True
+Docker Hub: Organization 'company' has been suspended due to Terms of Service violation. All image pulls from private repositories are blocked. Contact Docker support.,Image Management,Image Management,0.2695684765817136,True,True
+Network: BGP route for 10.8.0.0/16 was accidentally withdrawn. All microservices in the internal VPN subnet are unreachable. Requires network engineer to restore routing table.,Network,Network,0.774326065990676,True,False
+Jenkins: Build agent 'build-agent-05' is running on EC2 instance i-0abc123 that was terminated. Jenkins cannot reconnect to a terminated instance. New agent must be provisioned.,Infrastructure,CI Orchestration,0.15444914281839808,True,True
+ERROR: AWS KMS key arn:aws:kms:us-east-1:ACCOUNT:key/KEY-ID has been disabled by a key policy. All S3 SSE-KMS encrypted objects are now inaccessible. Key must be re-enabled by key admin.,Security,Configuration,0.18499364346394667,True,True
