@@ -1,0 +1,225 @@
+error_message,actual_category,predicted_category
+"[INFRA] {""timestamp"":""2024-06-22T03:17:22.007Z"",""level"":""error"",""host"":""agent-arm-11"",""pid"":3721,""message"":""docker: SIGKILL - docker daemon killed by OOM killer - all containers stopped immediately""}",Container Runtime,Infrastructure
+"error initializing resources in service lambda, err: operation error Lambda: GetPolicy, https response error StatusCode: 404, RequestID: 67d8e12c-adf2-405f-9d65-5045981e0cb7, ResourceNot",Resource Management,API
+java.io.IOException: Could not copy remoting.jar into 'c:\jenkins' on agent,Configuration,CI Orchestration
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:6379. Connection refused. Celery worker: task-queue-worker.,Container Runtime,Runtime
+error like: The self-hosted runner: xxx lost communication with the server. Verify the machine is running and has a healthy network connection. Anything in your workflow that terminates,API,Network
+"[INFRA] FATAL: PANIC: could not locate a valid checkpoint record - database needs recovery
+DETAIL: Connection from ec2-prod-07 rejected.
+HINT: Check pg_hba.conf ts=2024-01-15T09:12:33Z",Storage,Database
+"[INFRASTRUCTURE] time=""2024-03-04T08:28:55Z"" level=error msg=""Proxy error: zscaler - SSL inspection. Cause: self-signed cert injected. Impact: Docker pull SSL error. Network team configuration required."" host=ci-node-03 pid=4096",Network,Security
+error while trying to update projects/xproject/locations/us-central1/functions/xxxxx. Waiting to retry... ` and then got this one ` Functions deploy had errors with the following functio,Database,Runtime
+"fatal: [nms-pm2]: FAILED! => {""changed"": false, ""msg"": ""Unable to start service grafana-server: Job for grafana-server.service failed because the control pr",CI Orchestration,Runtime
+"error in Cloudformation saying ""Invalid request provided: You must specify exactly one subnet."" ``` SubnetIds: !Split [ ',', { 'Fn::ImportValue': !Sub '${App}-${Env}-PrivateSubnets' } ]",Infrastructure,Runtime
+error: 24: filesystem error: open failed: Too many open files [/var/lib/scylla/data/scylla_bench/test-a8aeb70076a111f0a3ab1c7e165f201a/me-3gsr_0bm3_5qm9s2t6bmi3t2yre4-big-Scylla.db]),Runtime,Database
+"error: 'C:/Users/alade/Desktop/Cliqueon/node_modules/react-native/ReactAndroid/hermes-engine/build/hermes/bin/Release/hermesc.exe', needed by 'lib/InternalBytecode/InternalBytecode.hbc',",CI Orchestration,Runtime
+"Error accepting TCP connection: accept tcp [::]:7946: accept4: too many open files\n""",Container Runtime,Network
+"FATAL: role ""ci_runner"" does not exist
+DETAIL: Connection to database 'app_db' failed on host 'db-prod-01' port 5432.
+The database user configured in the CI pipeline does not exist in the PostgreSQL cluster.",Authentication,Database
+[SECURITY] ERROR runner-amd-16[3456] aws-sdk: AWS Config: s3-public-read non-compliant region=ca-central-1 ts=2024-12-01T06:44:53.001Z,Authorization,Infrastructure
+"[INFRASTRUCTURE] level=error msg=""AWS SSO permission set propagation failed: 500 accounts failed to receive permission set update after 2h. AWS SSO bug. Re-trigger required via support.""",Configuration,Infrastructure
+"[TEST] hudson.AbortException: Jenkins build failure: Credentials: SSH deploy key missing
+	workspace=runner-amd-16/ws build=#3955 ts=2024-02-27T11:28:00Z",Security,CI Orchestration
+error: ``` EMFILE - too many open files error ``` This is a very tough issue to solve because it happens randomly. It is caused by having too many files open _on the whole machine_ (not j,Runtime,Resource Management
+[SECURITY] journald[1337]: runner-x86-09: System error: Permissions: ulimit requires root errno=ECONNREFUSED ts=2024-12-01T06:44:53.001Z,Security,Infrastructure
+Error 500 错误 查看日志： [rewrite] / -> /zh-CN__0__light/ (node:27) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead. (node:27) Warning: S,Authentication,Dependencies
+"error logs, ----------- Loading unique identities... 2/2 unique identities loaded Collection for git: starting... 2019-08-20 10:17:44,625 - grimoire_elk.elk - ERROR - Error feeding ocean",Repository,Runtime
+"Traceback (most recent call last): File ""/software/atac-seq-pipeline/src/encode_xcor.py"", line 102, in main() File ""/software/atac-seq-pipeline/src/encode_xcor",CI Orchestration,Runtime
+"Error > ***@5.0.0 scully /home/runner/work/***/*** > scully ""--host=0.0.0.0"" ☺ new Angular build imported ☺ Started servers in background Could not connect to server npm ERR! code ELIFEC",API,Dependencies
+error rendering and dependency injection,Dependencies,Runtime
+"[SOURCE_CONTROL] level=error msg=""GitHub App installation suspended: GitHub App 'ci-deployer' suspended by org admin after security incident. All CI pipelines blocked. Reinstatement requires security review.""",Authentication,Repository
+2024-11-03T12:07:29Z [ERROR] Dockerfile build failed on k8s-pod-abc12: manifest for node:sha-7f3a9b1 not found: manifest unknown. Request ID: req-33435.,Dependencies,Image Management
+error: ‘z2m: Error: Failed to start EZSP layer with status=HOST_FATAL_ERROR.’ The issue occurs when using either /dev/ttyUSB0 or TCP. Reverting to 2.7.0 fixes the problem > [09:24:27] INF,Network,Runtime
+Illegal instruction (core dumped). Binary: data-processor. CPU does not support AVX2 instruction set. Host: ci-runner-legacy-01.,Runtime,Infrastructure
+"[BUILD] time=""2024-03-10T22:03:17.442Z"" level=error msg=""Cannot connect to Docker daemon"" driver=overlay2 host=jenkins-worker-03 pid=4096",Infrastructure,Image Management
+"[BUILD] time=""2024-02-20T14:45:01+00:00"" level=error msg=""sysctl key not whitelisted in container (exit_code=1)"" driver=overlay2 host=docker-host-05 pid=2048",Container Runtime,Image Management
+"Error scanning directory, we'll skip and continue: boost::filesystem::directory_iterator::construct: An unexpected network error occurred: ` I also see a few of these in my syslog on VM:",Authorization,Runtime
+[DB] pg_ctlcluster[11287]: 2024-10-17T18:52:06.330Z docker-host-05 LOG: FATAL: could not create lock file: No space left db=appdb,Storage,Database
+[SECURITY] ERROR worker-gpu-13[2934] aws-sdk: SES sending quota exceeded region=eu-west-1 ts=2024-09-30T08:33:41.114Z,Authorization,Storage
+error in Python interpreter discovery for host localhost: Failed to connect to the host via ssh: ssh: connect to host 10.111.222.20 port 22:,Runtime,Network
+error: ``` Failed to create the changeset: Waiter ChangeSetCreateComplete failed: Waiter encountered a terminal failure state Status: FAILED. Reason: Transform AWS::Serverless-2016-10-31,Configuration,Resource Management
+"[BUILD] level=error msg=""Docker network IPAM exhausted: 172.17.0.0/16 subnet has 0 free IPs. Cannot create new containers. Too many docker networks allocated.""",Configuration,Container Runtime
+"[INFRA] nginx[16384]: No route to SSH bastion
+  upstream=127.0.0.1:8083
+  host=runner-x86-09 ts=2024-12-01T06:44:53.001Z",Security,Infrastructure
+"error `Input required and not supplied: github-token` names the action's parameter, not `GITHUB_TOKEN` (which is auto-provided on forks). A green run on the fork therefore means: `ci` (`",API,Runtime
+error: ``` pod tolerations (possibly merged with namespace default tolerations) conflict with its namespace whitelist ``` To solve the issue necessary to add to the `scheduler.alpha.kuber,Repository,Runtime
+"[DEPLOY] ServiceException[9543]: CodeBuild build failed: S3 artifact upload
+  region=us-east-1 host=jenkins-worker-03 ts=2024-07-04T16:44:09.559Z",CI Orchestration,Storage
+"error eslint@6.1.0: The engine ""node"" is incompatible with this module. Expected version ""^8.10.0 || ^10.13.0 || >=11.10.1"".",Dependencies,Runtime
+Error response from daemon: manifest for docker-dev:support-xattrs not found: manifest unknown: manifest unknown.,Container Runtime,Image Management
+error a week ago. This is not a runner issue since we are able to install packages using pip and `mix deps.get` for elixir and only npm fails. We are not using any proxy and internet is,Network,Dependencies
+error code 1 in None`,Dependencies,Runtime
+"exec.ExitError = &exec.ExitError{ProcessState:(*os.ProcessState)(0x10b9aff0)} (""exit status 125"")",Container Runtime,Runtime
+error processing package jenkins (--configure): installed jenkins package post-installation script subprocess returned error exit status 127 Errors were encountered while processing: jen,Configuration,Runtime
+Error refreshing state: Attribute name required: Dot must be followed by attribute name. rsiwal@rsiwal-dell:~/git/terraforming-cp/cp-prod/mon$ ### Crash Output Error refreshing state: At,Repository,Runtime
+error: builder for '/nix/store/2dwhn0f5xpnzbypv1w9l9djqsmdaz84i-p2pool-0.0.1.drv' failed with exit code 1;,CI Orchestration,Runtime
+"[BUILD] level=error msg=""Secrets in Docker history: docker history shows RUN --mount=type=secret accidentally printed to stdout. Secret visible in layer. Image must be rebuilt and secret rotated.""",Security,Image Management
+"Error: creating EKS Node Group (htp-lab-eks-cluster:htp-lab-loki-ingester-20231114092337686400000012): operation error EKS: CreateNodegroup, https response error StatusCode: 400, RequestI",Resource Management,API
+fatal: HttpRequestException encountered. > An error occurred while sending the request. > bash: /dev/tty: No such device or address > error: failed to execu,Repository,Runtime
+[RUNTIME] dockerd[7612]: docker: toomanyrequests: You have reached your pull rate limit - 200 pulls in 6h on Docker Hub kernel=5.2 host=docker-host-05 ts=2024-02-20T14:45:01+00:00,API,Resource
+"Error: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint ""ab_permission_view_role_permission_view_id_role_id_key""",Database,Runtime
+Error: buildx: failed to build: error building at step COPY --chown=node:node . .: lstat .: permission denied. Runner: ubuntu-latest.,Authorization,CI Orchestration
+error: `Aws::CloudWatch::Errors::ExpiredToken: The security token included in the request is expired` Upon investigation,Monitoring,Security
+error Unable to resolve path to module 'api/api' import/no-unresolved,Runtime,API
+TypeError: Cannot read properties of undefined (reading 'Symbol(proxy)'),Network,Runtime
+"sudo: a password is required
+Error: CI runner user 'jenkins' is not in the sudoers file. This incident will be reported.
+Add jenkins user to sudoers or use passwordless sudo configuration for required commands.",Authorization,Configuration
+"[BUILD] time=""2024-09-05T21:41:55Z"" level=error msg=""containerd shim fatal on build-node-09: containerd-shim-runc-v2 crashed: signal: killed. Cause: OOM killer killed shim process. Host-level investigation required."" host=build-node-09 pid=1024",Container Runtime,Infrastructure
+error when trying to test out some hadoop/hdfs containers and hadoop bailed with an exception saying that `hdfs://flume_hadoop_1/` was not valid URI (even though it was in `/etc/hosts` a,Container Runtime,Runtime
+"[DB] FATAL: Database error: Storage: WAL directory full
+DETAIL: Connection from worker-gpu-13 rejected.
+HINT: Check pg_hba.conf ts=2024-04-05T07:55:44.891Z",Storage,Database
+"[RUNTIME] level=error msg=""ACID violation: distributed transaction rolled back on 3/5 nodes. Saga pattern compensating transaction failed. Partial state left in prod DB.""",Database,Runtime
+"error DynamoDB: PutItem, failed to get rate limit token, retry quota exceeded, 0 available, 5 requested",Storage,API
+[SCM] GitCommandError[5678]: GitHub API: secondary rate limit triggered ref=refs/heads/main ts=2024-11-03T12:07:29.776Z host=build-win-15,API,Repository
+"error during deployment, since the stage which",Resource Management,Runtime
+error getting client: Error making API request.,Image Management,API
+[DEPLOY] [2024-03-10T22:03:17.442Z] build-win-15 gunicorn[4096] CRITICAL: Heroku build failed: no default buildpack,Configuration,Dependencies
+Error: Cannot cleanup:,Storage,Runtime
+"[INFRASTRUCTURE] level=error msg=""Amazon Macie: PII detected in S3 bucket ci-logs-prod: 842 objects containing SSN, credit card data. Bucket requires immediate access restriction and data purge.""",Security,Storage
+error on the master machine `gitlab-runner[1638]: ERROR: Job failed (system failure): fork/exec /usr/local/bin/docker-machine: exec format error duration_s=18.013533589 job=184644 projec,CI Orchestration,Container Runtime
+"[SECURITY] ServiceException[2048]: AWS API error: IAM: AWS credentials not configured
+  region=ap-southeast-1 host=ec2-prod-07 ts=2025-06-03T15:31:28.445Z",Authorization,Infrastructure
+error rather than defaulting to `CodeUri`. Another option would be to revert back to the old behavior (where `InlineCode` takes precedence over `CodeUri`),Resource Management,Runtime
+"Traceback (most recent call last): File ""sqlalchemy/engine/base.py"", line 2262, in _wrap_pool_connect File ""sqlalchemy/pool/base.py"", line 363, in connect File",Database,Runtime
+Error: Failed to query available provider packages │ │ Could not retrieve the list of available versions for provider hashicorp/null: could not query provider registry for registry.terraf,Network,Runtime
+[INFRA] [2025-03-20T13:55:29.881Z] ci-executor-08 kernel[2048]: System error: Disk: Root filesystem full uid=1056,Storage,Infrastructure
+"[CI] {""action"":""git_op"",""host"":""ci-pod-20"",""pid"":9543,""ts"":""2024-08-11T20:01:55.882Z"",""detail"":""Git operation failed: Pipeline: Lint errors blocking PR""}",CI Orchestration,Repository
+"[INFRASTRUCTURE] level=error msg=""Overlay filesystem depth exceeded: nested container mounts created 500 overlay layers. Linux kernel max 500 overlay mounts per namespace reached. Container creation failing.""",Container Runtime,Infrastructure
+error running container: error from /usr/bin/crun creating container for [/bin/sh -c date]: sd-bus call: Permission denied,Authorization,Container Runtime
+"error `network sandbox join failed: could not get network sandbox (oper true): failed get network namespace \""\"": no such file or directory` for all containers from just a single host",Container Runtime,Runtime
+error when trying to use TeamPolicy::scratch_size_max(0) / sizeof(int) to calculate the maximal number of element in a shared view. This is an example: ``` #include #include using Execut,Runtime,API
+"error anymore, also, staying in v1.12.1 and manually downgrading etcd to version v3.2.18 (which is ship with kubernetes v1.11.3) workaround the issue. **Environment**: - Kubernetes versi",Runtime,Dependencies
+error making systemd-journal constantly consume 100% of one CPU core. - docker CLI hangs **Describe the results you expected:** Limit of file descriptors is not hit and docker CLI works.,Container Runtime,Resource Management
+HttpError: Resource not accessible by integration,Runtime,API
+[BUILD] ContainerManager.start(build-agent-02:2934): Docker daemon error: Volumes: Host path missing ts=2025-04-11T08:17:43.221Z exit=130,Storage,Infrastructure
+"[INFRA] [var-881] {""ts"":""2025-03-20T13:55:29.881Z"",""host"":""agent-arm-11"",""pid"":16384,""layer"":""network"",""error"":""Connectivity failure - SSH: No route to SSH bastion"",""retry"":4}",Security,Network
+"Error: reading ControlTower Control (arn:aws:organizations::000000000000:ou/o-abcdefghijk/ou-abcd-efghijklmno,arn:aws:controltower:us-east-1::control/BKEEVLXJOIZI): operation error Contro",API,Resource Management
+[BUILD] container_runtime[5678]: ERROR Container lifecycle failure - Volumes: Docker disk overuse OOMScore=80 host=test-agent-19 [2024-03-10T22:03:17.442Z],Storage,Container Runtime
+"[DATA_LAYER] level=error msg=""pgbouncer: FATAL: unsupported startup parameter: standard_conforming_strings. Client incompatibility after pgbouncer 1.20 upgrade.""",Configuration,Database
+RuntimeError: CUDA out of memory`,Container Runtime,Resource Management
+"[INFRASTRUCTURE] time=""2024-05-18T11:29:58.123Z"" level=error msg=""NFS mount /nfs/artifacts from nfs-server-01: Stale NFS file handle. nfs server restart required. Filesystem integrity compromised."" host=ci-node-01 pid=1024",Storage,Infrastructure
+[DEPLOY] tcpdump[1024]: 2024-01-15T09:12:33Z build-slave-04: upstream disconnect before headers packets_lost=12 ec=ENOENT,Network,Security
+HTTPError: 400 Client Error: Bad Request,Infrastructure,API
+NotFoundException:400: [Resource with ARN arn:aws:lightsail:eu-central-1:***********:Instance/dce9f110-e8fd-4166-93ad-d7d8c720d248 was not found.],Resource Management,Authorization
+"[BUILD] level=error msg=""BuildKit cache import failure: --cache-from registry/cache:latest manifest not found. Registry cache purged by lifecycle policy. Cache miss causing 45min builds.""",Container Runtime,Image Management
+"[RUNTIME] level=error msg=""Heap dump analysis required: java.lang.OutOfMemoryError: Java heap space after 6h. JVM produced hs_err_pid14821.log. Root cause unknown.""",Runtime,Resource Management
+"[NETWORK] level=error msg=""Network ACL asymmetry: inbound ACL allowing TCP 443 but return traffic blocked by egress ACL. Stateless ACL not tracking TCP sessions. Ops team fix required.""",Security,Network
+dpkg: error: dpkg frontend is locked by another process. /var/lib/dpkg/lock-frontend is locked by pid 3341.,Storage,Authorization
+SSM Run Command failed: An error occurred (InvalidInstanceId) when calling the SendCommand operation: Instance i-0xyz987654321 is not connected to AWS Systems Manager. Verify the SSM agent is running and the instance has the required IAM permissions.,Infrastructure,Runtime
+RunContainerError: runContainer: operation timeout: context deadline exceeded,Container Runtime,Network
+"error: desc = ""transport: Error while dialing dial tcp 10.200.65.16:8300: operation was canceled"". Reconnecting...` These WARNS appear in both the server and clients. ### Reproduction Ste",Network,Runtime
+error: unexplained error (code 255),Network,Runtime
+[INFRA] tcpdump[2048]: 2024-02-20T14:45:01+00:00 build-agent-02: ping: Network is unreachable packets_lost=37 ec=EACCES,Security,Network
+[INFRA] audit[3721]: System error: Environment: Locale not generated host=k8s-pod-abc12 ts=2025-04-11T08:17:43.221Z auid=1075,Configuration,Infrastructure
+"bash: /home/jenkins/deploy.sh: Permission denied
+Error: Process completed with exit code 126
+The deploy script is not executable. Run 'chmod +x deploy.sh' or check file ownership and permissions.",Authorization,Runtime
+"[SCM] Actions runner agent-arm-11[9999]: SCM error - Rate Limit: Unauthenticated API exceeded
+  workflow=deploy.yml job=release step=4 ts=2025-01-08T05:23:17.009Z",API,Repository
+error while loading shared libraries: /var/packages/postgresql/target/lib/libicudata.so.77: internal error,Database,Runtime
+Error: Command failed with exit code 125: docker pull registry.salsa.debian.org/salsa-ci-team/pipeline/base:,CI Orchestration,Runtime
+"error: invalid configuration: FeatureGate KubeletCrashLoopBackOffMax not enabled, CrashLoopBackOff.MaxContainerRestartPeriod must not be set, path: &TypeMeta{Kind:,APIVersion:,}"" ### Anyt",Container Runtime,Configuration
+"error ""Name or service not known""",Database,Runtime
+"[BUILD] time=""2024-12-01T06:44:53Z"" level=error msg=""Docker Content Trust violation: registry.io/app:prod: trust data has expired. Cause: Notary timestamp expired. Image signing required before deployment."" host=ci-node-02 pid=2048",Security,Image Management
+RejectedAccessException: unclassified method hudson.model.Actionable getAction java.lang.Class. Pipeline: metrics-publisher.,Security,CI Orchestration
+"fatal: [localhost]: FAILED! => {""changed"": false, ""failed"": true, ""msg"": ""An error occurred (RequestLimitExceeded) when calling the DescribeAddresses operat",API,Runtime
+"Run actions/checkout@v3: fatal: detected dubious ownership in repository at '/github/workspace'. To add an exception for this directory, call: git config --global --add safe.directory /github/workspace
+Error: Process completed with exit code 128",Configuration,Runtime
+Error response from daemon: rpc error: code = DeadlineExceeded desc = context deadline exceeded,Network,Container Runtime
+Error: ECONNREFUSED 127.0.0.1:5432. PostgreSQL daemon not running. Service: user-api. Pod: user-api-5f8c. Sidecar: postgres-sidecar.,Container Runtime,Runtime
+MongoServerError: WriteConflict error: this operation conflicted with another operation. Collection: payments. Session: ClientSession deadlock.,Database,Runtime
+"[INFRASTRUCTURE] level=error msg=""Bond interface bond0 degraded: active-backup failover failed. Both member NICs eth0/eth1 reporting carrier loss. Hardware fault.""",Network,Infrastructure
+curl: (6) Could not resolve host: pypi.org. pip install failed. /etc/resolv.conf: nameserver 10.0.0.1 unreachable. Host: build-server-02.,Network,Dependencies
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 GiB. GPU 0: 8.00 GiB total. Reserved: 7.50 GiB. Service: ml-inference.,Runtime,Resource Management
+"[INFRASTRUCTURE] level=error msg=""SSH host key mismatch: build-node-55 reinstalled but known_hosts has old host key. All SSH-based CI tasks failing with 'REMOTE HOST IDENTIFICATION HAS CHANGED'.""",Security,Infrastructure
+Error: StartedAt:2016-02-02 09:57:28.815193532 +0000 UTC FinishedAt:0001-01-01 00:00:00 +0000 UTC} Image: Node: NetworkSettings:0xc20963cd00 SysInitPath: ResolvConfPath: HostnamePath,Runtime,Image Management
+"[RUNTIME] level=error msg=""Cassandra tombstone threshold exceeded: 100,001 tombstones scanned in query on table 'events'. ReadFailure. Data model redesign required.""",Database,Runtime
+"Error raised while executing lane: deploy, exception: The given operation is not allowed - The resource 'betaAppReviewSubmissions' does not allow 'DELETE'. Allowed operations are: GET_CO",Database,Configuration
+"[SECURITY] Actions runner qa-runner-10[8192]: Git operation failed: Authentication: Private email in commit
+  workflow=deploy.yml job=release step=8 ts=2024-11-03T12:07:29.776Z",Authentication,Repository
+error 2090 | The command '/bin/sh -c apk add git openssh-client' returned a non-zero code: 1,CI Orchestration,Runtime
+"Error: creating SQS Queue (daily_inbox_send_email_dlq): operation error SQS: CreateQueue, failed to get rate limit token, retry quota exceeded, 0 available, 5 requested",Storage,API
+Error: **ResourceStatusReason': 'Invalid Authorizer identifier specified** The error seems a red herring. The authorizer lambda exists and works fine when one path is included. I also val,Resource Management,Runtime
+error: rpc error: code = 4 desc = context deadline exceeded,Container Runtime,Network
+ERROR [denied]: requested access to the resource is denied. docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/api:latest. ECR auth expired.,Authorization,Image Management
+CONFLICT (modify/delete): config/database.yml deleted in HEAD and modified in feature/db-migration. Version in feature/db-migration left in tree. Automatic merge failed — this conflict requires manual intervention.,Repository,Database
+"error: listen tcp 5.00.209.17:10010: bind: address already in use""",Container Runtime,Runtime
+"[BUILD] time=""2024-03-10T22:03:17.442Z"" level=error msg=""WARN jenkins-worker-03 2024-05-18T11:29:58.123Z -- health check timed out (exit_code=1) [retry=4]"" driver=overlay2 host=build-win-15 pid=4096",Container Runtime,Storage
+"[INFRASTRUCTURE] level=error msg=""AWS GovCloud: standard AWS CLI profile accessing GovCloud endpoint. Partition mismatch arn:aws vs arn:aws-us-gov. All GovCloud API calls rejected.""",Configuration,Infrastructure
+Error: The JuNest image file junest-x86_64.tar.gz does not exist,Runtime,Image Management
+selenium.common.exceptions.SessionNotCreatedException: Message: Could not start a new session. Error while creating session with the driver service. Stopping driver service: java.io.IOException: HTTP/1.1 header parser received no byte,Container Runtime,Resource Management
+"[SOURCE_CONTROL] level=error msg=""Dependabot PRs blocked: repository vulnerability alert auto-dismiss policy conflicts with branch protection requiring 2 approvals.""",Configuration,Repository
+error that I get is the following because,Network,Runtime
+"error ""Caused by: java.io.IOException: Failed to set the timestamp of C:\automation\AccuNurse-3.2.0.0-569-upgrade.zip to 1316552260000",CI Orchestration,Resource Management
+"[RUNTIME] RuntimeError: Application runtime error: Runtime: Node.js heap OOM
+  at app.rb:1441:12 host=agent-arm-11 pid=11287",Runtime,API
+error Starting docker-bug-poc_postgres-foo_1 ... error,Database,Container Runtime
+[SECURITY] [Pipeline] [2025-03-20T13:55:29.881Z] Jenkins build failure: Credentials: SSH agent not configured node=ec2-prod-07 pid=2048 build=#1276,Security,CI Orchestration
+"[CI] remote: Git operation failed: Pipeline: Workflow directory missing
+fatal: repository not accessible
+hint: Check token permissions. host=agent-arm-11 ts=2025-02-14T19:41:52.334Z",CI Orchestration,Repository
+[INFRA] 2024-02-20T14:45:01+00:00 UTC [pid=2048]: FATAL: PostgreSQL data directory /var/lib/postgresql/14/main is corrupted - database offline host=k8s-pod-abc12 db=appdb,Storage,Database
+error Creating crowley_admin_1 ... done,Network,Runtime
+"Error syncing pod, skipping: timeout expired waiting for volumes to attach/mount for pod ""redis-cache-3629295551-abfoh""/""default"". list of unattached/unmounted volumes=[data]",Network,Runtime
+"fatal: could not read Username for 'https://github.com': terminal prompts disabled
+Error: The process '/usr/bin/git' failed with exit code 128. The pipeline is running non-interactively and no credentials have been configured.",Authentication,Runtime
+"Error device setupBaseImage: devmapper: Base Device UUID and Filesystem verification failed: devicemapper: Can't set cookie dm_task_set_cookie failed""",Container Runtime,Storage
+error = Error('could not fetch queue url for SQS');,Security,Runtime
+Termination of EC2 instance i-0aabbccdd11223344 failed: An error occurred (OperationNotPermitted) when calling the TerminateInstances operation: The instance 'i-0aabbccdd11223344' may not be terminated. Modify its 'disableApiTermination' instance attribute and try again.,Infrastructure,Resource Management
+error occurred when creating the CloudFormation stack[39m,Network,Infrastructure
+"error C1090: PDB API call failed, error code '23' : '("" in exactly the same second the first job finishes processing. Running both jobs outside Jenkins does not produce the error. This h",API,Runtime
+Error: ./gradlew exited with signal: SIGKILL at ChildProcess.completionListener (/app/turtle/node_modules/@expo/xdl/node_modules/@expo/spawn-async/build/spawnAsync.js:51:23) at Object.onc,CI Orchestration,Resource Management
+"[INFRASTRUCTURE] level=error msg=""AppArmor profile blocking: aa-logprof shows docker-default blocking io_uring syscall. Container fails with ENOSYS on modern kernel. Profile update required.""",Security,Infrastructure
+"java.text.ParseException: Unparseable date: ""39""",CI Orchestration,Runtime
+"error message "" This agent is offline because Jenkins failed to launch the agent process on it. "" Click the ""log details"" link and confirm that the only visible message is the initial co",CI Orchestration,Resource Management
+error ## Version * GitHub Desktop:1.22 * Operating system: windows 10 64 bit ## Steps to Reproduce ### Expected Behavior Should publish new repository ### Actual Behavior gave this error,Network,Configuration
+Error in Servlet INFO | jvm 1 | 2008/11/13 18:46:51 | org.apache.commons.jelly.JellyTagException: jar: file:/D:/Hudson/hudson_master/data/war/WEB-INF/lib/hudson-core- 1.261.jar!/lib/huds,Dependencies,CI Orchestration
+"error: No such exec instance 'db55507a76e5a807224bc3ee3a13a51560d1c06842b42974cb88096327e0c536' found in daemon""",API,Runtime
+"[SECURITY] {""action"":""git_op"",""host"":""jenkins-worker-03"",""pid"":9999,""ts"":""2025-04-11T08:17:43.221Z"",""detail"":""Git operation failed: Authentication: Deploy key read-only""}",Authentication,Repository
+[BUILD] WARN ci-node-01 [2025-03-20T13:55:29.881Z] docker[7612]: Docker daemon error: Volumes: Container layer size exceeded retry=2,Storage,Container Runtime
+error: ``` services $ mvn fabric8:push -Pdocker [INFO] Scanning for projects... [INFO] ------------------------------------------------------------------------ [INFO] Reactor Build Order:,Authorization,Runtime
+error when it attempts to add `A-record` to the hosted zone. Removing the `http.alias` allows the `frontend` service to be deployed to the default `frontend.staging.inventory.internal.dev` path,Network,Resource Management
+"[SECURITY] ServiceException[3456]: Secrets Manager: rotation failed | service=aws region=ap-southeast-1 ts=2024-04-05T07:55:44.891Z
+  region=ca-central-1 host=qa-runner-10 ts=2024-12-01T06:44:53.001Z",Authorization,Infrastructure
+fatal: [DEPLOY_USER]: FAILED! => {,Repository,Runtime
+error: failed to push some refs to 'dokku@dokku.foo:foo-spa',Container Runtime,Runtime
+error: unknown manifest mediaType (library/buildpack-deps:jessie@sha256:dd86dced7c9cd2a724e779730f0a53f93b7ef42228d4344b25ce9a42a1486251): 'application/vnd.docker.distribution.manifest.li,Container Runtime,Image Management
+"[ARTIFACT] ServiceException[7612]: Route53 health check failing: endpoint down | service=aws region=us-west-2 ts=2024-02-20T14:45:01+00:00
+  region=us-west-2 host=k8s-pod-abc12 ts=2024-08-11T20:01:55.882Z",Storage,Infrastructure
+error occurred (InsufficientInstanceCapacity) when calling the RunInstances operation (reached max retries: 2): There is no Spot capacity available that matches your request.: exit statu,Runtime,Resource Management
+[RUNTIME] [2024-01-15T09:12:33Z] ci-node-01 gunicorn[1024] CRITICAL: Swagger UI: failed to load API definition,API,Runtime
+[BUILD] dockerd[3456]: Docker daemon error: Volumes: Invalid volume syntax kernel=5.1 host=ec2-prod-07 ts=2024-01-15T09:12:33Z,Storage,Infrastructure
+error: could not connect to server: Connection refused,Network,Database
+The job was canceled because 'setup-environment' step failed. Subsequent steps that depend on this step will not run. Check the logs for 'setup-environment' to determine the cause of failure.,CI Orchestration,API
+"[INFRASTRUCTURE] level=error msg=""Elastic File System: EFS throughput limit reached: burst credits 0. All EFS reads/writes at 50KB/s (min throughput). Build I/O degraded 99%. Provisioned throughput required.""",Storage,Infrastructure
+"error msg=""could not resolve address of member ID 5c9f1beef700d602"" error=""rpc error: code = 9 desc = grpc: the client connection is closing"" raft_id=6b9c136b96a2f655",Container Runtime,Runtime
+"error: open /home/jeff/.ipfs/datastore/206401.ldb: too many open files The `.ipfs/blocks` folder has 73689 .data files, and the `.ipfs/datastore` folder has 4314 .ldb files. Maybe `ipfs a",Authentication,Runtime
+"[SECURITY] ServiceException[16384]: AWS Systems Manager: instance not managed
+  region=ap-south-1 host=ci-node-01 ts=2024-05-18T11:29:58.123Z",Authorization,Infrastructure
+"CannotPullContainerError: Error response from daemon: pull access denied for FOO.dkr.ecr.us-east-1.amazonaws.com/foo/app, repository does not exist or may require 'docker login' 3 different ECS services, a",Authorization,Image Management
+CloudWatch Logs Insights query failed: An error occurred (LimitExceededException) when calling the StartQuery operation: Account maximum query concurrency limit of 20 has been reached. Retry your request after some active queries complete.,Monitoring,Resource Management
+Error creating machine: Error running provisioning: ssh command error:,Infrastructure,Runtime
+error message quite frequently with `docker-compose up`: ``` ERROR: An HTTP request took too long to complete. Retry with --verbose to obtain debug information. If you encounter this iss,Container Runtime,Runtime
+"[INFRASTRUCTURE] level=error msg=""AWS Backup job FAILED: recovery point corrupted. Backup vault vault-prod restore failed with checksum mismatch. Data recovery blocked.""",Storage,Infrastructure
+Error response from daemon: mkdir /var/run/docker/libcontainerd/0823930a8dba111dc94265d898c0b44b1ae4b179a9c6672bc12e8cec2eab6b1d: no space left on device.,Container Runtime,Storage
+error below ``` Running with gitlab-runner 10.3.0 (5cf5e19a) on runner-gitlab-runner-856c89dd74-szxpz (00dc1024) Using Kubernetes namespace: gitlab-managed-apps Using Kubernetes executor,CI Orchestration,Runtime
+"Error initializing network controller: error obtaining controller instance: failed to register ""bridge"" driver: invalid argument",Configuration,Runtime
+"error message: 2015-09-17 08:54:22,125 31162 ERROR odoo-production openerp.sql_db: bad query: UPDATE ""queue_job"" SET ""job_function_id""=7,""channel""='root.magento' WHERE id IN (8267) Trace",Database,Runtime
+"[INFRASTRUCTURE] java.io.IOException: not authorized
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:514)
+	node=build-win-15 build=#3285",Security,CI Orchestration
+Error response from daemon: Cannot start container f9e42f092597e46f5cf6a507d7e70662e6ef1035a8f01d95f56c1f2934234361: iptables failed: iptables --wait -t nat -A DOCKER -p tcp -d 172.31.31,Security,Container Runtime
+Error #### first run * aws_ecs_service.servicelayer: InvalidParameterException: The target group with targetGroupArn arn:aws:elasticloadbalancing:eu-central-1:xxx:targetgroup/prod-test-s,Configuration,Infrastructure
+"[SECURITY] systemd[1]: System error: Permissions: Hosts file permissions wrong
+  unit=ci-agent.service host=test-agent-19 pid=5678 ts=2024-06-22T03:17:22.007Z",Security,Infrastructure
+"error: exec plugin: invalid apiVersion ""client.authentication.k8s.io/v1alpha1""",Configuration,Authentication
+"[DB] pg_restore[4096]: ERROR: could not fsync directory: Input/output error
+  host=jenkins-worker-03 port=5432 dbname=appdb ts=2024-03-10T22:03:17.442Z",Storage,Database
+error is located at:,Dependencies,Runtime
+error occurred: Access to the path is denied.,API,Authorization
+ERROR: Connection refused to Jenkins agent on 10.0.4.22:50000. Remoting version: 4.13. Agent: build-agent-linux-03. JNLP timed out.,Container Runtime,Network
+"ENOSPC: no space left on device, write. npm install failed. /home/ci/.npm cache: 22GB. Host: ci-server-03. Pipeline: frontend-build.",Resource Management,Storage

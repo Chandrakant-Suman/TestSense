@@ -1,0 +1,138 @@
+{
+  "validation_accuracy": 0.8329048843187661,
+  "classification_report": {
+    "API": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6470588235294118,
+      "f1-score": 0.6567164179104478,
+      "support": 34.0
+    },
+    "Authentication": {
+      "precision": 0.96,
+      "recall": 0.7741935483870968,
+      "f1-score": 0.8571428571428571,
+      "support": 31.0
+    },
+    "Authorization": {
+      "precision": 0.9605263157894737,
+      "recall": 0.8488372093023255,
+      "f1-score": 0.9012345679012346,
+      "support": 86.0
+    },
+    "CI Orchestration": {
+      "precision": 0.9166666666666666,
+      "recall": 0.8279569892473119,
+      "f1-score": 0.8700564971751412,
+      "support": 93.0
+    },
+    "Configuration": {
+      "precision": 0.9047619047619048,
+      "recall": 0.7307692307692307,
+      "f1-score": 0.8085106382978723,
+      "support": 52.0
+    },
+    "Container Runtime": {
+      "precision": 0.9120879120879121,
+      "recall": 0.7545454545454545,
+      "f1-score": 0.8258706467661692,
+      "support": 110.0
+    },
+    "Database": {
+      "precision": 0.908256880733945,
+      "recall": 0.9,
+      "f1-score": 0.9041095890410958,
+      "support": 110.0
+    },
+    "Dependencies": {
+      "precision": 0.7931034482758621,
+      "recall": 0.7931034482758621,
+      "f1-score": 0.7931034482758621,
+      "support": 29.0
+    },
+    "Dependency": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 11.0
+    },
+    "Image Management": {
+      "precision": 0.7735849056603774,
+      "recall": 0.9761904761904762,
+      "f1-score": 0.8631578947368421,
+      "support": 42.0
+    },
+    "Infrastructure": {
+      "precision": 0.7078651685393258,
+      "recall": 0.9130434782608695,
+      "f1-score": 0.7974683544303798,
+      "support": 69.0
+    },
+    "Monitoring": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1-score": 0.8888888888888888,
+      "support": 10.0
+    },
+    "Network": {
+      "precision": 0.9090909090909091,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8695652173913043,
+      "support": 108.0
+    },
+    "Performance": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 7.0
+    },
+    "Repository": {
+      "precision": 0.864406779661017,
+      "recall": 0.8947368421052632,
+      "f1-score": 0.8793103448275862,
+      "support": 57.0
+    },
+    "Resource": {
+      "precision": 0.9411764705882353,
+      "recall": 1.0,
+      "f1-score": 0.9696969696969697,
+      "support": 16.0
+    },
+    "Resource Management": {
+      "precision": 0.6052631578947368,
+      "recall": 0.7666666666666667,
+      "f1-score": 0.6764705882352942,
+      "support": 30.0
+    },
+    "Runtime": {
+      "precision": 0.539568345323741,
+      "recall": 0.8426966292134831,
+      "f1-score": 0.6578947368421053,
+      "support": 89.0
+    },
+    "Security": {
+      "precision": 0.967391304347826,
+      "recall": 0.839622641509434,
+      "f1-score": 0.898989898989899,
+      "support": 106.0
+    },
+    "Storage": {
+      "precision": 0.8939393939393939,
+      "recall": 0.7662337662337663,
+      "f1-score": 0.8251748251748252,
+      "support": 77.0
+    },
+    "accuracy": 0.8329048843187661,
+    "macro avg": {
+      "precision": 0.8612178115013995,
+      "recall": 0.8454494268784993,
+      "f1-score": 0.8471681190862389,
+      "support": 1167.0
+    },
+    "weighted avg": {
+      "precision": 0.856871341873436,
+      "recall": 0.8329048843187661,
+      "f1-score": 0.8380937914455706,
+      "support": 1167.0
+    }
+  }
+}

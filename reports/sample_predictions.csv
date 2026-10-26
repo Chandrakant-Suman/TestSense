@@ -1,0 +1,17 @@
+error_message,actual_category,predicted_category
+"[INFRA] {""timestamp"":""2024-06-22T03:17:22.007Z"",""level"":""error"",""host"":""agent-arm-11"",""pid"":3721,""message"":""docker: SIGKILL - docker daemon killed by OOM killer - all containers stopped immediately""}",Container Runtime,Infrastructure
+[DB] pg_ctlcluster[3456]: 2024-12-01T06:44:53.001Z agent-arm-11 LOG: [archiver] ERROR: value too long for type character varying(255) db=appdb,Database,Database
+"[INFRASTRUCTURE] time=""2024-08-16T08:15:29Z"" level=error msg=""Error: cannot update sealed secret - controller does not allow key rotation on live resources"" host=ci-node-71 pid=2048",Configuration,Configuration
+"[INFRASTRUCTURE] time=""2024-11-18T08:21:53Z"" level=error msg=""IKE SA negotiation failed: vpn-gw-02 Phase 1 handshake timeout. VPN hardware appliance not responding."" host=ci-node-02 pid=2048",Network,Network
+"[DEPLOY] time=""2024-09-21T07:17:13Z"" level=critical msg=""CRITICAL: Health check failed post-deploy. success_rate=0% on endpoint /api/v2/checkout"" host=prod-node-10 pid=2048",CI Orchestration,CI Orchestration
+"[SOURCE_CONTROL] time=""2024-10-11T04:18:36Z"" level=error msg=""GitHub Enterprise: GitHub Actions runner registration on self-hosted runner: registration token expired after 1h. Manual admin intervention required."" host=worker-04 pid=8192",Repository,Repository
+"[CI] java.io.IOException: Jenkins build failure: Agent: Agent inactivity timeout
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1509)
+	node=deploy-node-06 build=#1257",CI Orchestration,CI Orchestration
+"[SECURITY] aws[9543]: ECR lifecycle policy not applied: storage bloat
+  endpoint=us-east-1.amazonaws.com
+  requestId=m3n4o5 host=deploy-node-06",Image Management,Image Management
+"[CI] java.io.IOException: Groovy script: method not whitelisted
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:533)
+	node=build-agent-02 build=#6074",CI Orchestration,CI Orchestration
+"error initializing resources in service lambda, err: operation error Lambda: GetPolicy, https response error StatusCode: 404, RequestID: 67d8e12c-adf2-405f-9d65-5045981e0cb7, ResourceNot",Resource Management,API
